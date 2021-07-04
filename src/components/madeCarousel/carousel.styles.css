@@ -1,0 +1,86 @@
+:root {
+   --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-primary-10: hsl(205, 100%, 96%); 
+  --clr-white: #fff;
+  --transition: all 0.3s linear;
+  --radius: 0.25rem;
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+body{
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;							
+}
+.wrapper{
+	max-width: 1240px;
+	width: 100%;
+	min-height: 300px;
+	top: 50%;
+	left: 50%;
+	right: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	margin: auto;
+	background: var(--clr-white);
+	margin-bottom: auto;
+	padding: 0 20px;
+}
+.app{
+	width: 100%;
+	display: flex;
+	overflow: hidden;
+}
+.card{
+	min-width: 25%;
+	overflow: hidden;
+	padding: 5px;
+	border: 3px solid #eee;
+}
+.card img{
+	width: 70%;
+	height: 100px;
+	display: block;
+	object-fit: cover;
+}
+.card h2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 10px;
+	opacity: 0.8;
+}
+.card p{
+	opacity: 0.7;
+	line-height: 1.5;
+	margin: 5px 0;
+}
+.card a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 0;
+	color: teal;
+}
+.card a:hover{
+	color: #ff8000;
+}
+.prev, .next{
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%);
+	cursor: pointer;
+}
+.next{
+	right: 0;
+}
+
+@media (max-width: 900px){
+	.card{
+		min-width: 50%;
+	}	
+}
+@media (max-width: 900px){
+	.card{
+		min-width: 100%;
+	}
+}
