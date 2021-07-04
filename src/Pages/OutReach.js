@@ -20,7 +20,7 @@ const OutReach = () => {
   </li>
   <li
     className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
-      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/gambia.jpg" />
+      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/gambia.jpg" alt="" />
       <div className="pl3 flex-auto">
         <span className="f6 db black-70">Gambia</span>
         <span className="f6 db black-70">Ngsoft Gambia</span>
@@ -42,7 +42,7 @@ const OutReach = () => {
   </li>
   <li
     className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
-      <img className="w2 h2 w3-ns h3-ns br-100"  src="/countryflag/liberia.jpg" />
+      <img className="w2 h2 w3-ns h3-ns br-100"  src="/countryflag/liberia.jpg" alt="" />
       <div className="pl3 flex-auto">
         <span className="f6 db black-70">Liberia</span>
         <span className="f6 db black-70">Ngsoft Liberia</span>
@@ -53,7 +53,7 @@ const OutReach = () => {
   </li>
   <li
     className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
-      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/sierraleone.jpg" />
+      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/sierraleone.jpg" alt="" />
       <div className="pl3 flex-auto">
         <span className="f6 db black-70">Sierra Leone</span>
         <span className="f6 db black-70">Ngsoft Sierra Leone</span>
@@ -64,7 +64,7 @@ const OutReach = () => {
   </li>
   <li
     className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
-      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/kenya.jpg" />
+      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/kenya.jpg" alt=""  />
       <div className="pl3 flex-auto">
         <span className="f6 db black-70">Kenya</span>
         <span className="f6 db black-70">Ngsoft kenya</span>
@@ -75,7 +75,7 @@ const OutReach = () => {
   </li>
   <li
     className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
-      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/tanzania.jpg" />
+      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/tanzania.jpg" alt=""  />
       <div className="pl3 flex-auto">
         <span className="f6 db black-70">Tanzania</span>
         <span className="f6 db black-70">Ngsoft Tanzania</span>
@@ -86,7 +86,7 @@ const OutReach = () => {
   </li>
   <li
     className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
-      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/uganda.jpg" />
+      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/uganda.jpg" alt="" />
       <div className="pl3 flex-auto">
         <span className="f6 db black-70">Uganda</span>
         <span className="f6 db black-70">Ngsoft Uganda</span>
@@ -97,7 +97,7 @@ const OutReach = () => {
   </li>
   <li
     className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
-      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/rwanda.jpg" />
+      <img className="w2 h2 w3-ns h3-ns br-100" src="/countryflag/rwanda.jpg"  alt="" />
       <div className="pl3 flex-auto">
         <span className="f6 db black-70">Rwanda</span>
         <span className="f6 db black-70">Ngsoft Rwanda</span>
