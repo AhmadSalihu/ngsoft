@@ -1,6 +1,8 @@
 import React from 'react';
+import '../slider.css'
 
-const Arrows = ({ prevSlide, nextSlide }) => {
+
+const Arrows = ({nextSlide, prevSlide}) => {
 	return (
 		<div className="arrows">
 			<span className="prev" onClick={prevSlide}>&#10094;</span>
@@ -9,4 +11,4 @@ const Arrows = ({ prevSlide, nextSlide }) => {
 	)
 }
 
-export default Arrows
+export default Arrows;

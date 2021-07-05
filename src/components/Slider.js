@@ -8,13 +8,14 @@ import "./slider.css"
 
 const len = imageSlider.length - 1;
 
-const Slider = (props) => { 
+const Slider = () => { 
 	const [activeIndex, setActiveIndex] = useState(0);
 
 	const location = useLocation();
+	
 	useEffect(() => {
 		const interval = setInterval(() => {
-			setActiveIndex(activeIndex === len ? 0 : + 1);
+			setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
 		}, 5000);
 		return () => clearInterval(interval);
 	}, [activeIndex]);
@@ -24,7 +25,7 @@ const Slider = (props) => {
 				location.pathname === '/' && (
 					<div className="slider-container">
 						<SliderContent activeIndex={activeIndex} imageSlider={imageSlider} />
-						<Arrows prevSlide={() => setActiveIndex(activeIndex < 1 ? len : - 1)}
+						<Arrows prevSlide={() => setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)}
 							nextSlide={() => setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)}
 						/>
 						<Dots activeIndex={activeIndex}

@@ -26,7 +26,7 @@ class MadeCarousel extends Component {
  prevClick = () => {
 	 const slide = this.myRef.current;
 	 slide.scrollLeft -= slide.offsetWidth;
-	 if (slide.scrollLeft <= 0){
+	 if (slide.scrollLeft <= -0){
 		 slide.scrollLeft = slide.scrollWidth; 
 	 }
 	};

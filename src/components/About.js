@@ -1,10 +1,12 @@
 import React from 'react';
 import '../components/home.css'
+import Slider from '../components/aboutslider/slider'
 
 
 const About = () => {
 	return (
 		<div>
+			<Slider />
 		  <article data-name="article-full-bleed-background">
   <div className="cf" style={{ background: "url(https://www.zerox24.com/wp-content/uploads/2020/07/Technology-related-business-ideas.png) no-repeat center center fixed", backgroundSize: "cover" }}>
     <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
@@ -27,7 +29,7 @@ const About = () => {
   	</div>
 	</article>
 		
-		</div>
+	</div>
 	)
 }
 
