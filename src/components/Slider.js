@@ -7,7 +7,7 @@ import Dots from './Dots';
 import "./slider.css"
 
 const len = imageSlider.length - 1;
-
+console.log(imageSlider)
 const Slider = () => { 
 	const [activeIndex, setActiveIndex] = useState(0);
 
@@ -31,7 +31,6 @@ const Slider = () => {
 						<Dots activeIndex={activeIndex}
 							imageSlider={imageSlider}
 							onclick={(activeIndex) => setActiveIndex(activeIndex)} />
-
 					</div>
 				)}
 		</>

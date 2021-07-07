@@ -8,6 +8,7 @@ import Member3 from '../assets/team/member-3.png';
 import Member4 from '../assets/team/member-4.png';
 import Member5 from '../assets/team/member-5.png';
 import Member6 from '../assets/team/member-6.png';
+import Ceo from  '../assets/atj.jpg'
 import TeamCard from './team-card';
 
 import './ngsoftglance.css'
@@ -21,9 +22,9 @@ import '../components/review/review.css'
 const data = [
   {
     id: 1,
-    imgSrc: Member1,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
+    imgSrc: Ceo,
+    altText: 'Ahmad Tafida Jalinga',
+    title: 'Ahmad Tafida Jalingo',
     designation: 'CEO and Founder',
     socialProfile: [
       {
@@ -48,10 +49,10 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: Member2,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Founder',
+    imgSrc: Ceo,
+    altText: 'Ahmad Tafida Jalinga',
+    title: 'Ahmad Tafida Jalingo',
+    designation: 'CEO and Founder',
     socialProfile: [
       {
         id: 1,
@@ -75,10 +76,10 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: Member3,
-    altText: 'Aaron Nunez',
-    name: 'Aaron Nunez',
-    designation: 'Aaron Nunez Web Designer',
+    imgSrc: Ceo,
+    altText: 'Ahmad Tafida Jalinga',
+    title: 'Ahmad Tafida Jalingo',
+    designation: 'CEO and Founder',
     socialProfile: [
       {
         id: 1,
@@ -102,10 +103,10 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Member4,
-    altText: 'Lina Jutila',
-    title: 'Lina Jutila',
-    designation: 'Web Developer',
+    imgSrc: Ceo,
+    altText: 'Ahmad Tafida Jalinga',
+    title: 'Ahmad Tafida Jalingo',
+    designation: 'CEO and Founder',
     socialProfile: [
       {
         id: 1,
@@ -129,10 +130,9 @@ const data = [
   },
   {
     id: 5,
-    imgSrc: Member5,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    name: "Ahmad",
+   imgSrc: Ceo,
+    altText: 'Ahmad Tafida Jalinga',
+    title: 'Ahmad Tafida Jalingo',
     designation: 'CEO and Founder',
     socialProfile: [
       {
@@ -157,10 +157,10 @@ const data = [
   },
   {
     id: 6,
-    imgSrc: Member6,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+   imgSrc: Ceo,
+    altText: 'Ahmad Tafida Jalinga',
+    title: 'Ahmad Tafida Jalingo',
+    designation: 'CEO and Founder',
     socialProfile: [
       {
         id: 1,

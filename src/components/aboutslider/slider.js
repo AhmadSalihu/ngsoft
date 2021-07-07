@@ -21,12 +21,12 @@ const Slider = () => {
 }, [activeIndex]);
 
 	return (
-		<div className="">
+		<div className="slider-container">
 			<SliderContent activeIndex={activeIndex} imageSlider={imageSlider} />
 			<Dots activeIndex={activeIndex} imageSlider={imageSlider} onclick={() => setActiveIndex(activeIndex)} />
 			<Arrows
-				prevSlide={() => setActiveIndex(activeIndex === len ? activeIndex : activeIndex - 1)}
-				nextSlide={() => setActiveIndex(activeIndex < 1 ? len : activeIndex + 1)}
+				prevSlide={() => setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)}
+				nextSlide={() => setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)}
 				/>
 		</div>
 	)

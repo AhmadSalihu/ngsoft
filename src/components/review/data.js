@@ -1,11 +1,12 @@
+import Ceo from '../../assets/atj.jpg'
+
 const reviews = [
   {
     id: 1,
-    name: 'susan smith',
-    job: 'web developer',
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
-    text: " I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry"
+    name: 'Ahmad Tafia Jalingo',
+    job: 'CEO',
+    image: Ceo,
+    text: "Ahmad Tafida Jalingo is the founder and Ceo of NGSoft Company, He is from Jalingo Taraba State and he currently lives in Kaduna. " + "He is so passionate towards technology and has improve the lives of many citizens in Kaduna State Nigeria. By his unique ideas of software and how software cn be used to help ease many hardship that people are facing in this our time."
   },
   {
     id: 2,

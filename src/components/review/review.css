@@ -59,7 +59,7 @@ main {
   margin-right: auto;
 }
 .container {
-  width: 80vw;
+  width: 60vw;
   max-width: var(--fixed-width);
 }
 .review,
@@ -130,6 +130,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 0.75rem;
+  color: rgb(20, 40, 220);
+  font-size:1rem;
 }
 .prev-btn,
 .next-btn {

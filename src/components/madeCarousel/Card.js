@@ -4,7 +4,6 @@ import './carousel.styles.css'
 class Card extends Component {
 	  render() {
 		const { data } = this.props;
-		console.log(data)
 		return (
 			<>
 				{

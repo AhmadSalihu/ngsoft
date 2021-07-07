@@ -1,8 +1,6 @@
+// eslint-disable-next-line
 /* eslint-disable import/no-anonymous-default-export */
-// import  Img from '../assets/Img.jpg'
-// import  Dg from '../assets/Dg.jpg'
-// import Tech from '../assets/Tech.jpg'
-// import Itech from '../assets/Itech.jpeg'
+
 
 import Mfb from '../assets/ngsoftImages/mfb.jpeg'
 import Ktc from '../assets/ngsoftImages/ktc.jpeg'
@@ -12,12 +10,7 @@ import Gv1 from '../assets/ngsoftImages/gv01.jpeg'
 import Gv2 from '../assets/ngsoftImages/gv02.jpeg'
 import Gv3 from '../assets/ngsoftImages/gv03.jpeg'
 import Gv4 from '../assets/ngsoftImages/gv04.jpeg'
-// import Mfb from '../assets/ngsoftImages/mbf.jpeg'
-// import Mfb from '../assets/ngsoftImages/mbf.jpeg'
-// import Mfb from '../assets/ngsoftImages/mbf.jpeg'
-// import Mfb from '../assets/ngsoftImages/mbf.jpeg'
-// import Mfb from '../assets/ngsoftImages/mbf.jpeg'
-// import Mfb from '../assets/ngsoftImages/mbf.jpeg'
+
 
 export default [
 	{
@@ -47,17 +40,17 @@ export default [
 	},
 	{
 		title: "NGSoft Presentation to KDSG",
-		description: "NGSoft Presentation to Kaudna State Government. (KDSG)  By NGSoft Board Members and Staffs",
+		description: "NGSoft Presentation to Kaduna State Government. (KDSG)  By NGSoft Board Members and Staffs",
 		urls: Gv2
 	},
 	{
 		title: "NGSoft Presentation to KDSG",
-		description: "NGSoft Presentation to Kaudna State Government. (KDSG)  By NGSoft Board Members and Staffs",
+		description: "NGSoft Presentation to Kaduna State Government. (KDSG)  By NGSoft Board Members and Staffs",
 		urls: Gv3
 	},
 	{
 		title: "NGSoft Presentation to KDSG",
-		description: "NGSoft Presentation to Kaudna State Government. (KDSG)  By NGSoft Board Members and Staffs",
+		description: "NGSoft Presentation to Kaduna State Government. (KDSG)  By NGSoft Board Members and Staffs",
 		urls: Gv4
 	},
 ]; 
