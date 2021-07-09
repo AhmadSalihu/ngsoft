@@ -3,7 +3,7 @@ import './home.css';
 import Dg from "../assets/Dg.jpg";
 import Itech from "../assets/Itech.jpeg"
 import Tech from "../assets/Tech.jpg"
-
+import Rencosoft from '../'
 
 
 const Home = () => {
@@ -14,7 +14,8 @@ const Home = () => {
     <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
       <header className="bb b--black-70 pv4">
         <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir ngsoft">Ngsoft Solutions</h3>
-        <h4 className="f3 fw4 i lh-title mt0">We Believe in Having the Best in order to render the best!</h4>
+				<h4 className="f3 fw4 i lh-title mt0">We Believe in Having the Best in order to render the best!
+				</h4>
       </header>
       <section className="pt5 pb4">
         	<p className="times lh-copy measure f4 mt0">
@@ -48,11 +49,9 @@ const Home = () => {
 						</p>
 					</div>
 					<div className="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
-						<img src={Itech} className="db imgsize portion" alt="" />
+						<img src={Itech} className="db" alt="" />
 					</div>
 				</div>
-				{/* <p className="f6 lh-copy gray mv0">By <span className="ttu">Robin Darnell</span></p>
-				<time className="f6 db gray">Nov. 21, 2016</time> */}
 			</article>
 			<article className="pv4 bb b--black-10 ph3 ph0-l">
 				<div className="flex flex-column flex-row-ns">
@@ -71,8 +70,6 @@ const Home = () => {
 						<img src={Dg} className="db" alt="" />
 					</div>
 				</div>
-				<p className="f6 lh-copy gray mv0">By <span className="ttu">Katherine Grant</span></p>
-				<time className="f6 db gray">Nov. 19, 2016</time>
 			</article>
 			<article className="pv4 bb b--black-10 ph3 ph0-l">
 				<div className="flex flex-column flex-row-ns">
@@ -90,12 +87,10 @@ const Home = () => {
 						<img src={Tech} className="db" alt="" />
 					</div>
 				</div>
-				<p className="f6 lh-copy gray mv0">By <span className="ttu">Imelda Clancy</span></p>
-				<time className="f6 db gray">Nov. 19, 2016</time>
 			</article>
 			</section>
 	</>
 	)
 }
 
-export default Home
+export default Home;

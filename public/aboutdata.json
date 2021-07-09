@@ -1,0 +1,122 @@
+[
+	{
+		"title": "AirForce Card",
+		"description": "Digitilized Smart Card Systems",
+		"imgSrc": "AboutImg/CmmndCardAirforce.jpg" 
+	},
+	{
+		"title": "Coomand Card",
+		"description": "Digitilized Smart Card Systems",
+		"imgSrc": "AboutImg/Command.jpg" 
+	},
+	{
+		"title": "Army Card",
+		"description": "Digitilized Smart Card Systems",
+		"imgSrc": "AboutImg/CommanCardArmy.jpg" 
+	},
+	{
+		"title": "AgriCard",
+		"description": "Digitilized AgriCard Service Delivery System",
+		"imgSrc": "AboutImg/AgriCard.jpg" 
+	},
+	{
+		"title": "Campos Card",
+		"description": "Digitilized Smart Campos Card Systems",
+		"imgSrc": "AboutImg/Campos.jpg" 
+	},
+	{
+		"title": "Confluence",
+		"description": "Digitilized Smart Card System",
+		"imgSrc": "AboutImg/cnflunce.jpg"
+	},
+	{
+		"title": "Kastelea Card",
+		"description": "Digitilized Smart Card System",
+		"imgSrc": "AboutImg/Kastelea.jpg" 
+	},
+	{
+		"title": "KadVreg",
+		"description": "Digitilized Vehicle Online registration Registrtion System",
+		"imgSrc": "AboutImg/Kavreg.jpg"
+	},
+	{
+		"title": "MediCard",
+		"description": "Digitilized Health Card System",
+		"imgSrc": "AboutImg/MCard01.jpg"
+	},
+	{
+		"title": "Keeping The Change",
+		"description": "Digitilized Smart Card System for Keeping the Change(KTC).",
+		"imgSrc": "AboutImg/Ktc01.jpg" 
+	},
+	{
+		"title": "MediCard",
+		"description": "Digitilized Health Card System ",
+		"imgSrc": "AboutImg/Mcard.jpg"
+	},
+	{
+		"title": "MfBanking",
+		"description": "Digitilized Micro-Finance Card System", 
+		"imgSrc": "AboutImg/Mfbanking.jpg" 
+	},
+	{
+		"title": "PinkCard",
+		"description": "Digitilized lady's Card Systems",
+		"imgSrc": "AboutImg/PnkCard.jpg" 
+	},
+	{
+		"title": "ServiCard",
+		"description": "Digitilized Smart ServiCard System",
+		"imgSrc": "AboutImg/ServiCard.jpg" 
+	},
+	{
+		"title": "Bride City Card",
+		"description": "Digitilized Bride City Card Systems",
+		"imgSrc": "AboutImg/Smrt02.jpg"
+	}, 
+	{
+		"title": "Bride City Card",
+				"description": "Digitilized Bride City Card Systems",
+		"imgSrc": "AboutImg/Smrt01.jpg" 
+	},
+	{
+		"title": "Kadvreg",
+		"description": "Digitilized Vehicle Online registration Registration.",
+		"imgSrc": "AboutImg/Kadvrg01.jpg"
+	},
+	{
+		"title": "Kadvreg",
+		"description": "Digitilized Vehicle Online registration Registration.",
+		"imgSrc": "AboutImg/Kadvreg0.jpg"
+	},
+	{
+		"title": "KADRIS",
+		"description": "Kaduna State Internal Revenue Services(KADRIS) Portal",
+		"imgSrc": "AboutImg/Kadris02.jpg"
+	},
+	{
+		"title": "KADRIS",
+		"description": "Kaduna State Internal Revenue Services(KADRIS) Portal.",
+		"imgSrc": "AboutImg/Kadris.jpg" 
+	},
+	{
+		"title": "A",
+		"description": "Digitilized Smart Card Systems",
+		"imgSrc": "AboutImg/HomeCard.jpg"
+	},
+	{
+		"title": "A",
+		"description": "Digitilized Smart Card Systems",
+		"imgSrc": "AboutImg/JournyCard.jpg" 
+	},
+	{
+		"title": "A",
+		"description": "Digitilized Smart Card Systems",
+		"imgSrc": "AboutImg/E-wllt02.jpg"
+	},
+	{
+		"title": "A",
+		"description": "Digitilized Smart Card Systems",
+		"imgSrc": "AboutImg/E-wllet.jpg"
+	}
+]

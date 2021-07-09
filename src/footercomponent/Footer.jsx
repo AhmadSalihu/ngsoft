@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       {
-        location.pathname === "what__we_do"  && null (
+        location.pathname === "/"  && (
       <footer className="footer">
       <div className="footer-left">
         <img className="logo" src={Ngsoftlogo} alt="Ngsoft" />
@@ -47,11 +47,11 @@ const Footer = () => {
           </ul>
         </li>
          <li>
-          <h2>Partners</h2>
+          <h2>Our location</h2>
           <ul className="box">
-            <li><a href='/signup'>Customer register</a></li>
-            <li><a href='/signin'>Sign In</a></li>
-            <li><a href='/sidebar'>User DashBord</a></li>
+            <li><a href='/signup'>Warf Road</a></li>
+            <li><a href='/signin'>Muhammad Buhari way</a></li>
+            <li><a href='/sidebar'>Kaduna</a></li>
           </ul>
         </li>
       </ul> 
@@ -59,7 +59,7 @@ const Footer = () => {
               <p>All right reserved &copy; by Ngsoft{new Date().getFullYear()}</p>
       </footer>
       </footer>
-        )
+      )
       }
       
 

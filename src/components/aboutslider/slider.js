@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import imageSlider from './ImageSlider';
+// import imageSlider from '../about.data'
 import Dots from "./Dots";
 import Arrows from "./arrows"
 import SliderContent from './sliderContent';

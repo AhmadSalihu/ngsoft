@@ -4,7 +4,7 @@
 }
 
 :root{
-	--heights: 90vh;
+	--heights: 60vh;
 	--widths: 100%;
 }
 
@@ -44,7 +44,7 @@
 	margin-bottom: 30px;
 	width: 100%;
 	height: 100%;
-	color: rgb(251, 0, 50);	
+	color: rgb(38, 0, 251);	
 	font-size: 50px;
 	position: absolute;
 	top: 10%;

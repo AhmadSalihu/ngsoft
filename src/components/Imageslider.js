@@ -25,7 +25,8 @@ export default [
 	},
 	{
 		title: "Smart Revenues",
-		description: "Global Revenue Accretion Services System. GRASS (Full Value Change Revenue Digitization",
+		description: "Global Revenue Accretion Services System. GRASS",
+		subdescription: "(Full Value Change Revenue Digitization",
 		urls: Rg,
 	},
 	{
