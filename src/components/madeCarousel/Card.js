@@ -7,12 +7,12 @@ class Card extends Component {
 		return (
 			<>
 				{
-					data.map((item, i) => (
+					data.map(({i, src, title, description}) => (
 						<div className="card" key={i}>
-							<img src={item.src} alt="img" />
+							<img src={src} alt="img" />
 							<div>
-								<h2>{item.title}</h2>
-								<p>{item.description}</p>
+								<h2>{title}</h2>
+								<p>{description}</p>
 								<a href="/">Read more</a>
 							</div>
 						</div>

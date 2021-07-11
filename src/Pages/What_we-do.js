@@ -1,21 +1,20 @@
 import React from 'react';
-import styled from 'styled-components'
-import MadeCarousel from '../components/madeCarousel/carousel';
+import AbCarousel from '../components/madeCarousel/carousel';
 
 
 
-const Title = styled.h1`
-display: flex;
-justifyContent: center;
-alignItems: center;
-
-`
 
 const WhatWeDo = () => {
 	return (
 		<div>
-			<Title>Our List Of Proucts</Title>
-		<MadeCarousel />
+			<div className="headertag">
+				<h1 className="h1tag">
+					Our Most Dedicated Projects
+				</h1>
+			</div>
+			<AbCarousel />
+			<br />
+			{/* <TestimonialCard />  */}
 		</div>
 	)
 }

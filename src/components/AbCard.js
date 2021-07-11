@@ -3,14 +3,14 @@ import '../components/madeCarousel/carousel.styles.css'
 
 class Card extends Component {
 	  render() {
-			const { aboutdata } = this.props;
-			console.log(aboutdata)
+			const { data } = this.props;
+			console.log(data)
 		return (
 			<>
 				{
-					aboutdata.map((item, i) => (
+					data.map((item, i) => (
 						<div className="card" key={i}>
-							<img src={item.imgSrc} alt="img" />
+							<img src={item.src} alt="img" />
 							<div>
 								<h2>{item.title}</h2>
 								<p>{item.description}</p>

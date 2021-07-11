@@ -1,4 +1,155 @@
-.br4 {
+.aspect-ratio {
+    height: 0;
+    position: relative;
+}
+
+.aspect-ratio--1x1 {
+    padding-bottom: 40%;
+}
+
+.aspect-ratio--object {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    height: 80%;
+    z-index: 10;
+}
+
+.cover {
+    background-size: cover !important;
+}
+
+.bg-center {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.db {
+    display: block;
+}
+
+.fl {
+    float: left;
+    _display: inline;
+}
+
+.fw4 {
+    font-weight: 400;
+}
+
+.link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+}
+
+.link:link, .link:visited {
+    transition: color .15s ease-in;
+}
+
+.link:hover {
+    transition: color .15s ease-in;
+}
+
+.link:active {
+    transition: color .15s ease-in;
+}
+
+.link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.black-90 {
+    color: rgba(0, 0, 0, .9);
+}
+
+.black-60 {
+    color: rgba(0, 0, 0, .6);
+}
+
+.pb3 {
+    padding-bottom: 1rem;
+}
+
+.ph2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.mt2 {
+    margin-top: .5rem;
+}
+
+.f5 {
+    font-size: 1rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+@media screen and (min-width: 30em) {
+    .w-25-ns {
+        width: 25%;
+    }
+
+    .pa2-ns {
+        padding: .5rem;
+    }
+
+    .ph0-ns {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .f4-ns {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .w-50-m {
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .br4 {
     border-radius: 1rem;
 }
 
@@ -45,4 +196,4 @@
         width: 50%;
     }
 }
-
+ */

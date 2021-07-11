@@ -226,3 +226,18 @@ li {
 .menu-item .sub__menus__full a {text-align: left;}
 
 }
+
+.headertag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(240, 187, 52);
+  box-shadow: 3px 15px rgba(199, 222, 235, 0.3);
+}
+.headertag .h1tag{
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+}

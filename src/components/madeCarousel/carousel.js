@@ -13,7 +13,7 @@ class MadeCarousel extends Component {
 	myRef = React.createRef();
 
 	getData = async () => {
-		const res = await fetch('data.json');
+		const res = await fetch('abdata.json');
 		const data = await res.json();
 		this.setState({data: data})
 	}
@@ -53,7 +53,6 @@ class MadeCarousel extends Component {
 					</div>
 					<div className="next" onClick={this.nextClick}>
 					<div><FaChevronRight /></div>
-						<img src="images/next.png" alt="" />
 					</div>
 				</div>
 			</div>

@@ -1,4 +1,7 @@
-import ButtonGroup from '../components/Carousel/button-group';
+import { jsx, Container, Heading, Text } from 'theme-ui';
+import SectionHeader from './section-header';
+import Rating from './rating';
+import ButtonGroup from './button-group';
 import Carousel from 'react-multi-carousel';
 
 import Avatar1 from '../assets/testimonial/avatar1.png';
@@ -98,33 +101,34 @@ const carouselParams = {
 export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
-      {/* <Container css={{ textAlign: 'center'}}>
+      <Container as="div" css={{ textAlign: 'center'}}>
         <SectionHeader
           slogan="Testimonial"
           title="Meet clients Satisfaction"
         />
-      </Container> */}
-      <div sx={styles.corouselWrapper}>
+      </Container>
+      <div  sx={styles.corouselWrapper}>
         <Carousel {...carouselParams}>
           {data.map((item) => (
             <div sx={styles.reviewCard} key={item.sliderClass}>
-              <h1 as="h3" sx={styles.title}>
+              <Rating rating={item.review} />
+              <Heading as="h3" sx={styles.title}>
                 {item.title}
-              </h1>
-              <p sx={styles.description}>
+              </Heading>
+              <Text as="p" sx={styles.description}>
                 {item.description}
-              </p>
+              </Text>
               <div className="card-footer">
                 <div className="image">
-                  <img src={item.avatar} alt="client" />
+                  <img  src={item.avatar} alt="client Image" />
                 </div>
                 <div className="reviewer-info">
-                  <h2 as="h4" sx={styles.heading}>
+                  <Heading as="h4" sx={styles.heading}>
                     {item.name}
-                  </h2> 
-                  <p sx={styles.designation}>
+                  </Heading> 
+                  <Text sx={styles.designation}>
                     {item.designation}
-                  </p>
+                  </Text>
                 </div>
              </div> 
            </div> 

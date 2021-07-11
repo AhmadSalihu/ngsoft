@@ -61,7 +61,22 @@
 .w-100 {
     width: 100%;   /* pv4 bt bb b--black-10 ph3 ph0-l*/
 }
-
+.col1,
+.cl2,
+.c1{
+    color: rgb(12, 7, 80);
+}
+.col2{
+    color: rgb(255, 0, 0);
+}
+.col3,
+.cl1{
+    color: rgb(7, 7, 206);
+}
+.c3{
+    color: goldenrod;
+    text-decoration: underline;
+}
 .gray {
     color: #777;
 }
