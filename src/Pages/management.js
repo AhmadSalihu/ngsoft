@@ -30,7 +30,7 @@ const Management = () => {
 		<article className="cf">
   <div className="fl w-100 w-50-ns bg-near-white tc">
 				<br />
-					<section className="pt5 pb4">
+					<section className="pt5 pb4 bgclr">
         	<p className="times lh-copy measure f4 mt0">
 						Prasat Suor Prasat is a series of twelve towers spanne
 						north to south lining the eastern side of royal square in Angkor Thom,

@@ -13,7 +13,7 @@ const Home = () => {
   <div className="cf" style={{ background: "url(https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80) no-repeat center center fixed", backgroundSize: "cover" }}>
     <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
       <header className="bb b--black-70 pv4">
-        <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir ngsoft">Ngsoft Solutions</h3>
+        <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir ngsoft ng">NG<span className="soft">Soft</span><span className="rmt"> Services</span></h3>
 				<h4 className="f3 fw4 i lh-title mt0">We Believe in Having the Best in order to give you the best!
 				</h4>
       </header>

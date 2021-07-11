@@ -4,13 +4,13 @@
 }
 
 :root{
-	--heights: 60vh;
+	--heights: 100vh;
 	--widths: 100%;
 }
 
 .slider-container{
-	height: var(--heights);
-	width: var(--widths);
+	height: 100vh;
+	width: 85%;
 	position: relative;
 	margin: auto;
 	overflow: hidden;
@@ -27,12 +27,12 @@
 .slides{
 	height: var(--heights);
 	width: var(--widths);	
-	position: relative;
+	position: absolute;
 }
 
 .slide-image{
 	width: 100%;
-	height: 80vh;
+	height: 100vh;
 	position: absolute;
 	object-fit: cover;
 }
@@ -41,13 +41,13 @@
 .slider-subtitle,
 .slide-title{
 	padding: 10px;
-	margin-bottom: 30px;
-	width: 100%;
-	height: 100%;
-	color: rgb(38, 0, 251);	
+	margin-bottom: 50px;
+	width: 50%;
+	height: 70%;
+	color: rgb(251, 0, 21);	
 	font-size: 50px;
 	position: absolute;
-	top: 10%;
+	top: 15%;
 	z-index: 10;
 }
 

@@ -23,6 +23,12 @@ lh-copy {
 .pa3 {
     padding: 1rem;
 }
+.ng{
+    color: rgb(128, 0, 0);
+}
+.soft{
+    color: brown;
+}
 
 .f2 {
     font-size: 2.25rem;

@@ -49,17 +49,17 @@ const Navbarmenu = () => {
                     <ul className={boxClass.join(' ')}>
                         <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Who We Are <FiChevronDown /> </Link>
                             <ul className={boxClassSubMenu.join(' ')} > 
-                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/ngsoftglance`}> NGSoft At A glance </NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/ngsoftstaff`}>NGSoft Staff </NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/management`}> Management </NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/boardmembers`}> Bord of Directors </NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/structure`}>Our Structure </NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/partners`}>Our Partners </NavLink> </li>
+                                <li> <NavLink  activeClassName='is-active'  to={`/ngsoftglance`}> NGSoft At A Glance </NavLink> </li>
+                                <li><NavLink activeClassName='is-active' to={`/ngsoftstaff`}>NGSoft Staff </NavLink> </li>
+                                <li><NavLink activeClassName='is-active' to={`/management`}> Management </NavLink> </li>
+                                <li><NavLink activeClassName='is-active' to={`/boardmembers`}> Board of Directors </NavLink> </li>
+                                <li><NavLink activeClassName='is-active' to={`/structure`}>Our Structure </NavLink> </li>
+                                <li><NavLink activeClassName='is-active' to={`/partners`}>Our Partners </NavLink> </li>
                             </ul>
                         </li>
-                        <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/what__we_do`}>Wha We Do</NavLink> </li>
-                        <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/aboutpage`}>About Us</NavLink> </li>
-                        <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/our_out_reach`}>Out Reach</NavLink> </li>
+                        <li className="menu-item " ><NavLink activeClassName='is-active' to={`/what__we_do`}>Wha We Do</NavLink> </li>
+                        <li className="menu-item " ><NavLink activeClassName='is-active' to={`/aboutpage`}>About Us</NavLink> </li>
+                        <li className="menu-item " ><NavLink activeClassName='is-active' to={`/our_out_reach`}>Out Reach</NavLink> </li>
                     </ul>
                     </nav>     
                 </div>   

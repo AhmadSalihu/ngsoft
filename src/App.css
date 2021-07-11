@@ -30,7 +30,6 @@ img {
   text-align: center;
   display: block;
   margin: 0 auto;
-  color: #07a8ff;
   font-family: 'Inter', sans-serif;
 }
 .navBar .logo img {
@@ -38,7 +37,7 @@ img {
   max-height: 120px;
 }
 .is-active {
-  color: #ff5800!important;
+  color: #ff8000!important;
 }
 
 .navBar .col-md-3 {
@@ -68,7 +67,7 @@ li {
   line-height: 40px;
   position: relative;
   display: block;
-  color: #545050;
+  color: goldenrod;
   margin: 27px 17px;
   text-decoration: none;
   cursor: pointer;
@@ -78,9 +77,13 @@ li {
   display: flex;
   float: left;
 }
+.header__middle img{
+  margin-right: 20px;
+}
 .header__middle__logo img{
   width: 70px;
   height: 70px;
+  margin-top: 5px;
 }
 
 .header__middle__logo h1{
@@ -112,19 +115,21 @@ li {
 .header__middle {
   display: flex;
   width: 100%;
+  height: 90px;
   float: left;
-  border-bottom: 1px dashed lavender;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 03);
+  border-bottom: 1px solid lavender;
   position: relative;
+  background: linear-gradient(to right, rgb(12, 7, 80), rgb(22, 218, 195));
 }
 .header__middle__logo > a > h1 {
   color: #07a8ff;
   text-transform: uppercase;
   text-decoration: none;
-  margin-top: 33px;
+  margin-top: 23px;
 }
 .active{
-  color: #ff1800!important;
+  color: #d9ff00!important;
 }
 .header__middle__menus span.text {
   position: absolute;
@@ -189,7 +194,7 @@ li {
 @media(max-width:991px){
 .header__middle__logo {width: 77%;}
 .header__middle__menus {width: 20%;}
-.header__middle__logo img {max-width: 197px;margin: 27px 0 0 0;}
+.header__middle__logo img {max-width: 197px;margin: 6px 0 0 0;}
 .main-nav .menubar__button:hover {background-color: #f44336;}
 .main-nav .menu-item:hover > a {color: #07a8ff !important}
 .main-nav .menubar__button {
