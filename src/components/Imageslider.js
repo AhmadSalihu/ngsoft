@@ -2,14 +2,15 @@
 /* eslint-disable import/no-anonymous-default-export */
 
 
-import Mfb from '../assets/ngsoftImages/mfb.jpeg'
-import Ktc from '../assets/ngsoftImages/ktc.jpeg'
+import Mfb from '../assets/ngsoftImages/Mfbank.png'
+import AGRIC1 from '../assets/ngsoftImages/AGRIC1.png'
 import Rg from '../assets/ngsoftImages/rg.jpeg'
+import Gh01 from "../assets/ngsoftImages/gh01.png"
+import GH3 from '../assets/ngsoftImages/gh3.png'
+import GH1 from '../assets/ngsoftImages/gh1.png'
 import Hm from '../assets/ngsoftImages/Hm.jpeg'
-import Gv1 from '../assets/ngsoftImages/gv01.jpeg'
-import Gv2 from '../assets/ngsoftImages/gv02.jpeg'
-import Gv3 from '../assets/ngsoftImages/gv03.jpeg'
-import Gv4 from '../assets/ngsoftImages/gv04.jpeg'
+import GH from '../assets/ngsoftImages/gh0.png'
+import GH2 from '../assets/ngsoftImages/gh2.png'
 
 
 export default [
@@ -21,7 +22,7 @@ export default [
 	{
 		title: "Keeping The Change",
 		description: "A Digitalized Management Card System For Keeping Your Change KTC",
-		urls: Ktc,
+		urls: AGRIC1,
 	},
 	{
 		title: "Smart Revenues",
@@ -37,21 +38,26 @@ export default [
 	{
 		title: "NGSoft Presentation to KDSG",
 		description: "NGSoft Presentation to Kaduna State Government. (KDSG) By NGSoft Board Members and Staffs ",
-		urls: Gv1,
+		urls: GH1,
 	},
 	{
 		title: "NGSoft Presentation to KDSG",
 		description: "NGSoft Presentation to Kaduna State Government. (KDSG)  By NGSoft Board Members and Staffs",
-		urls: Gv2
+		urls: GH2
 	},
 	{
 		title: "NGSoft Presentation to KDSG",
 		description: "NGSoft Presentation to Kaduna State Government. (KDSG)  By NGSoft Board Members and Staffs",
-		urls: Gv3
+		urls: GH3
 	},
 	{
 		title: "NGSoft Presentation to KDSG",
 		description: "NGSoft Presentation to Kaduna State Government. (KDSG)  By NGSoft Board Members and Staffs",
-		urls: Gv4
+		urls: GH
+	},
+	{
+		title: "NGSoft Presentation to KDSG",
+		description: "NGSoft Presentation to Kaduna State Government. (KDSG)  By NGSoft Board Members and Staffs",
+		urls: Gh01
 	},
 ]; 

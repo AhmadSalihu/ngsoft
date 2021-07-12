@@ -16,9 +16,9 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
+    altText: 'Olusegun Johnson Awonuga',
+    title: 'Olusegun Johnson Awonuga',
+    designation: 'Management Team',
     socialProfile: [
       {
         id: 1,
@@ -43,9 +43,9 @@ const data = [
   {
     id: 2,
     imgSrc: Member2,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Founder',
+    altText: 'Hajiya Maimuna Ibrahim',
+    title: 'Hajiya Maimuna Ibrahim',
+    designation: 'Managemnt Team',
     socialProfile: [
       {
         id: 1,
@@ -70,9 +70,9 @@ const data = [
   {
     id: 3,
     imgSrc: Member3,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: 'Miss Zainab Mai',
+    title: 'Miss Zainab Mai',
+    designation: 'Officer',
     socialProfile: [
       {
         id: 1,
@@ -97,9 +97,9 @@ const data = [
   {
     id: 4,
     imgSrc: Member4,
-    altText: 'Lina Jutila',
-    title: 'Lina Jutila',
-    designation: 'Web Developer',
+    altText: 'Kabiru Tafida',
+    title: 'Kabiru Tafida',
+    designation: 'Officer',
     socialProfile: [
       {
         id: 1,
@@ -124,9 +124,9 @@ const data = [
   {
     id: 5,
     imgSrc: Member5,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
+    altText: 'Hauwa Hayat',
+    title: 'Miss Hauwa Hayat',
+    designation: 'Officer',
     socialProfile: [
       {
         id: 1,
@@ -150,10 +150,280 @@ const data = [
   },
   {
     id: 6,
+    imgSrc: Member1,
+    altText: 'Faruk Kinafa',
+    title: 'Faruk Kinafa',
+    designation: 'Officer',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 7,
     imgSrc: Member6,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: 'Salim Tafida',
+    title: 'Salim Tafida',
+    designation: 'Client Support Staff',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 8,
+    imgSrc: Member1,
+    altText: 'Miss Murna John',
+    title: 'Miss Murna John',
+    designation: 'Client Support Staff',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 9,
+    imgSrc: Member2,
+    altText: 'James Gabriel  Dauji',
+    title: 'Mr. James Gabriel  Dauji',
+    designation: 'Client Support Staff',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 10,
+    imgSrc: Member3,
+    altText: 'Cyrus Goni',
+    title: 'Mr. Cyrus Goni',
+    designation: 'Client Support Staff',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 11,
+    imgSrc: Member4,
+    altText: 'Hajiya Amina Ibrahim',
+    title: 'Hajiya Amina Ibrahim',
+    designation: 'Client Support Staff',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 12,
+    imgSrc: Member5,
+    altText: 'Aminu Lawal Abdulkarim',
+    title: 'Mal. Aminu Lawal Abdulkarim',
+    designation: 'Client Support Staff',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 13,
+    imgSrc: Member3,
+    altText: 'Sadiq Usman Mamuda',
+    title: 'Sadiq Usman Mamuda',
+    designation: 'Dev Team',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 14,
+    imgSrc: Member6,
+    altText: 'Jamilu Jibrin',
+    title: 'Jamilu Jibrin',
+    designation: 'Dev Team',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 15,
+    imgSrc: Member5,
+    altText: 'Abdulhafiz Abdullahi',
+    title: 'Abdulhafiz Abdullahi',
+    designation: 'Dev Team',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 16,
+    imgSrc: Member1,
+    altText: "Ahmad Salla'u Gude",
+    title: 'Mal. Aminu Lawal Abdulkarim',
+    designation: 'Dev Team',
     socialProfile: [
       {
         id: 1,
@@ -183,29 +453,17 @@ const NgsoftStaff = () => {
     <article data-name="article-full-bleed-background">
   <div className="cf" style={{ background: "url(https://www.zerox24.com/wp-content/uploads/2020/07/Technology-related-business-ideas.png) no-repeat center center fixed", backgroundSize: "cover" }}>
     <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
-      <header className="bb b--black-70 pv4">
-        <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir ng">NG<span className="soft">Soft</span><span className="rmt">Staff</span></h3>
-        <h4 className="f3 fw4 i lh-title mt0">We Believe in Having the Best in order to render the best!</h4>
+      <header className="b--black-70 pv4">
+        <h3 className="f2 fw7 tracked lh-title mt0 mb3 avenir ng">NG<span className="soft">Soft </span>Staff</h3>
       </header>
-      <section className="pt5 pb4">
-        	<p className="times lh-copy measure f4 mt0">
-						Prasat Suor Prat (Khmer: ប្រាសាទសួព្រ័ត) is a series of twelve towers spanne
-						north to south lining the eastern side of royal square in Angkor Thom,
-						near the town of Siem Reap, Cambodia. The towers are made from rugged
-						laterite and sandstone. The towers are located right in front of
-						Terrace of the Elephants and Terrace of the Leper King, flanking the
-						start of the road leading east to the Victory Gate, on either side of
-						which they are symmetrically arranged. Their function remains unknown.
-        	</p>
-      	</section>
     	</div>
   	</div>
 	</article>
       <br />
       <br />
       <div  sx={{ marginTop: "70px"}}>
-        <h1 className="staff_title">Ngsoft's Staff</h1>
-        <span className="staff_qoute">Our Most Dedicated Staff and team Members</span>
+        {/* <h1 className="staff_title"><span className="ng">NG</span><span className="soft">Soft's  </span> Staff</h1><br /> */}
+        <h4 className="f3 fw4 i lh-title mt0 tc">Our belove team members</h4>
         <div className="grid">
           {data.map((item) => (
             <TeamCard

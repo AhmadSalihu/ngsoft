@@ -21,7 +21,7 @@ const Structure = () => {
     <a className="db pv4 ph3 ph0-l no-underline black dim" href="#0">
       <div className="flex flex-column flex-row-ns">
         <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <img src="/ngsoftImages/Hm.jpeg" className="db" alt="Photo of a dimly lit room with a computer interface terminal." />
+          <img src="/ngsoftImages/Hm.jpeg" className="db" alt="home" />
         </div>
         <div className="w-100 w-60-ns pl3-ns">
           <h1 className="f3 fw1 baskerville mt0 lh-title">HOME MANAGER</h1>
@@ -39,7 +39,7 @@ const Structure = () => {
     <a className="db pv4 ph3 ph0-l no-underline black dim" href="#0">
       <div className="flex flex-column flex-row-ns">
         <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <img src="/ngsoftImages/rncsft.jpeg" className="db" alt="Photo of a warehouse with stacked shelves." />
+          <img src="/ngsoftImages/rncsft.jpeg" className="db" alt="rentcosoft" />
         </div>
         <div className="w-100 w-60-ns pl3-ns">
           <h1 className="f3 fw1 baskerville mt0 lh-title">Warehouse Prices Are Fast on the Rise</h1>
@@ -58,7 +58,7 @@ const Structure = () => {
     <a className="db pv4 ph3 ph0-l no-underline black dim" href="#0">
       <div className="flex flex-column flex-row-ns">
         <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <img src="/ngsoftImages/vreg.jpeg" className="db" alt="Photo of a whale's tale coming crashing out of the water." />
+          <img src="/ngsoftImages/vreg.jpeg" className="db" alt="vreg" />
         </div>
         <div className="w-100 w-60-ns pl3-ns">
           <h1 className="f3 fw1 baskerville mt0 lh-title">Giant Whale Invests Huge Money to Build a Computer Out of Plankton</h1>
@@ -79,17 +79,3 @@ const Structure = () => {
 
 export default Structure;
 
-
-	{/* <div className="structure-header">
-			<div  className="structure-container">
-				<div className="text-container">
-					<h1 className="h1tag">OUR STRUCTURE</h1>
-					<p className="text">
-						The solutions provided in this sector cuts across all the IT solutions provided by CWG for other sectors (FSI, telecommunication, government and utility). This sector focuses on logistics companies, oil and gas and mining companies, education, SMEs, transportation, retail businesses, NGOs, construction companies, hospitals, agriculture, and professional bodies.
-					</p>
-				</div>
-				<div className="image-container">
-					<img  className="img-fit" src="/countryflag/gambia.jpg" alt="" />
-				</div>
-		</div>
-		</div> */}

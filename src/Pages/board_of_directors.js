@@ -17,9 +17,9 @@ const data = [
   {
     id: 1,
     imgSrc: Ceo,
-    altText: 'Ahmad Tafida Jalinga',
-    title: 'Ahmad Tafida Jalingo',
-    designation: 'CEO and Founder',
+    altText: 'Mr. Danied Ishaya Dabo',
+    title: 'Mr. Danied Ishaya Dabo',
+    designation: 'Director',
     socialProfile: [
       {
         id: 1,
@@ -45,8 +45,8 @@ const data = [
     id: 2,
     imgSrc: Ceo,
     altText: 'Ahmad Tafida Jalinga',
-    title: 'Ahmad Tafida Jalingo',
-    designation: 'CEO and Founder',
+    title: 'A J Tafida ',
+    designation: 'Lead Consultan',
     socialProfile: [
       {
         id: 1,
@@ -71,90 +71,9 @@ const data = [
   {
     id: 3,
     imgSrc: Ceo,
-    altText: 'Ahmad Tafida Jalinga',
-    title: 'Ahmad Tafida Jalingo',
-    designation: 'CEO and Founder',
-    socialProfile: [
-      {
-        id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
-    ],
-  },
-  {
-    id: 4,
-    imgSrc: Ceo,
-    altText: 'Ahmad Tafida Jalinga',
-    title: 'Ahmad Tafida Jalingo',
-    designation: 'CEO and Founder',
-    socialProfile: [
-      {
-        id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
-    ],
-  },
-  {
-    id: 5,
-   imgSrc: Ceo,
-    altText: 'Ahmad Tafida Jalinga',
-    title: 'Ahmad Tafida Jalingo',
-    designation: 'CEO and Founder',
-    socialProfile: [
-      {
-        id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
-    ],
-  },
-  {
-    id: 6,
-   imgSrc: Ceo,
-    altText: 'Ahmad Tafida Jalinga',
-    title: 'Ahmad Tafida Jalingo',
-    designation: 'CEO and Founder',
+    altText: 'Alh. Ibrahim Sadoh',
+    title: 'Alh. Ibrahim Sadoh',
+    designation: 'Chife Operations Officer',
     socialProfile: [
       {
         id: 1,

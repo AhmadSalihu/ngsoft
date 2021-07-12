@@ -1,9 +1,5 @@
 import React from 'react';
 import './home.css';
-import Dg from "../assets/Dg.jpg";
-import Itech from "../assets/Itech.jpeg"
-import Tech from "../assets/Tech.jpg"
-import Rencosoft from '../'
 
 
 const Home = () => {

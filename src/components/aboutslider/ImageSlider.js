@@ -1,3 +1,5 @@
+//import/no-anonymous-default-export
+
 export default [
 	{
 		src: "/ngsoftImages/bcc.jpeg",
