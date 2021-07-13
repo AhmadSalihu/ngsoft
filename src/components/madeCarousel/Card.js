@@ -8,7 +8,7 @@ class Card extends Component {
 			<>
 				{
 					data.map(({i, src, title, description}) => (
-						<div className="card" key={i}>
+						<div className="img-card" key={i}>
 							<img src={src} alt="img" />
 							<div>
 								<h2>{title}</h2>

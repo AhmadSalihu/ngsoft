@@ -1,28 +1,38 @@
 [
 	{
-		"src": "AboutImg/CmmndCardAirforce.jpg", 
+		"title": "AgriCard (Poultry)",
+		"description": "Digitilized AgriCard Service Delivery System",
+		"src": "ngsoftImages/AGRICARD1.png" 
+	},
+	{
+		"title": "AgriCard (Livestock)",
+		"description": "Digitilized AgriCard Service Delivery System",
+		"src": "ngsoftImages/AGRICARD2.png" 
+	},
+	{
+		"title": "AgriCard (Aquatic)",
+		"description": "Digitilized AgriCard Service Delivery System",
+		"src": "ngsoftImages/AGRICARD3.png" 
+	},
+	{
 		"title": "AirForce Card",
-		"description": "Digitilized Smart Card Systems"
+		"description": "Digitilized Smart Card Systems",
+		"src": "ngsoftImages/CommandCard.png" 
 	},
 	{
 		"title": "Command Card",
 		"description": "Digitilized Smart Card Systems",
-		"src": "AboutImg/Command.jpg" 
+		"src": "AboutImg/CommandCardAirforce.jpg" 
 	},
 	{
 		"title": "Army Card",
 		"description": "Digitilized Smart Card Systems",
-		"src": "AboutImg/CommanCardArmy.jpg" 
-	},
-	{
-		"title": "AgriCard",
-		"description": "Digitilized AgriCard Service Delivery System",
-		"src": "AboutImg/AgriCard.jpg" 
+		"src": "AboutImg/CommandCardArmy.jpg" 
 	},
 	{
 		"title": "Campos Card",
 		"description": "Digitilized Smart Campos Card Systems",
-		"src": "AboutImg/Campos.jpg" 
+		"src": "ngsoftImages/Campose.png" 
 	},
 	{
 		"title": "Confluence",
@@ -42,7 +52,12 @@
 	{
 		"title": "MediCard",
 		"description": "Digitilized Health Card System",
-		"src": "AboutImg/MCard01.jpg"
+		"src": "ngsoftImages/MediCard01.png"
+	},
+	{
+		"title": "MediCard",
+		"description": "Digitilized Health Card System",
+		"src": "ngsoftImages/MediCard02.jpg"
 	},
 	{
 		"title": "Keeping The Change",
@@ -50,24 +65,19 @@
 		"src": "AboutImg/Ktc01.jpg" 
 	},
 	{
-		"title": "MediCard",
-		"description": "Digitilized Health Card System ",
-		"src": "AboutImg/Mcard.jpg"
-	},
-	{
 		"title": "MfBanking",
 		"description": "Digitilized Micro-Finance Card System", 
-		"src": "AboutImg/Mfbanking.jpg" 
+		"src": "ngsoftImages/Mfbank.png" 
 	},
 	{
 		"title": "PinkCard",
 		"description": "Digitilized lady's Card Systems",
-		"src": "AboutImg/PnkCard.jpg" 
+		"src": "ngsoftImages/PinkCard.png" 
 	},
 	{
 		"title": "ServiCard",
 		"description": "Digitilized Smart ServiCard System",
-		"src": "AboutImg/ServiCard.jpg" 
+		"src": "ngsoftImages/ServiCard.png" 
 	},
 	{
 		"title": "Bride City Card",
@@ -102,12 +112,12 @@
 	{
 		"title": "A",
 		"description": "Digitilized Smart Card Systems",
-		"src": "AboutImg/HomeCard.jpg"
+		"src":"AboutImg/HomeCard.jpg"
 	},
 	{
 		"title": "A",
 		"description": "Digitilized Smart Card Systems",
-		"src": "AboutImg/JournyCard.jpg" 
+		"src": "ngsoftImages/SafeJ.png" 
 	},
 	{
 		"title": "A",
