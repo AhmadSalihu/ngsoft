@@ -3,6 +3,7 @@
   padding: 0;
   border: none;
   outline: none;
+  box-sizing: border-box;
 }
 .clearfix{
   clear:both;
@@ -18,4 +19,11 @@ a{
 a:hover{
   text-decoration:none;
   outline:none;
+}
+.ng{
+    color: green;
+}
+.soft{
+    color: goldenrod;
+    text-transform: capitalize;
 }

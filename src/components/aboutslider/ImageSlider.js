@@ -13,4 +13,10 @@ export default [
 	{
 		src: "/ngsoftImages/Hm.jpeg",
 	},
+	{
+		src: "/ngsoftImages/Hm.jpeg",
+	},
+	{
+		src: "/ngsoftImages/Hm.jpeg",
+	},
 ]

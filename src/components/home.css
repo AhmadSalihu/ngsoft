@@ -44,7 +44,8 @@ header .ngsoft{
 }
 .fle{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-end;
     background-color: linear-gradient(to right, rgb(12, 7, 80), rgb(15, 194, 173));
     line-height: 2.5;
     font-size: 1.2rem;  
@@ -73,13 +74,34 @@ header .ngsoft{
 .lh-copy {
     line-height: 1.5;
 }
-
+.tm{
+    text-decoration: wavy;
+    color: goldenrod;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.sixing{
+    width: 70%;
+    height: 80%;
+    box-shadow: 15px solid rgba(0, 190, 248, 0.5);
+    border-radius: 15px;   
+}
+.ceo-title{
+ 
+ color:rgb(50, 50, 197);
+}
 .mw7 {
    width: 80%;
 }
+.mw8{
+    width: 90vw;
+}
 
 .w-100 {
-    width: 100%;   /* pv4 bt bb b--black-10 ph3 ph0-l*/
+    width: 100%;
+}
+.w-50{
+    width: 50vw;
 }
 .col1,
 .cl2,

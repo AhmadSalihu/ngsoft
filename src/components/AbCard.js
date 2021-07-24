@@ -11,8 +11,8 @@ class Card extends Component {
 					data.map((item, i) => (
 						<div className="img-card" key={i}>
 							<img src={item.src} alt="img" />
-							<div>
-								<h2>{item.title}</h2>
+							<div >
+								<h3>{item.title}</h3>
 								<p>{item.description}</p>
 								<a href="/">Read more</a>
 							</div>

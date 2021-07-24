@@ -44,11 +44,7 @@ const Structure = () => {
         <div className="w-100 w-60-ns pl3-ns">
           <h1 className="f3 fw1 baskerville mt0 lh-title">Warehouse Prices Are Fast on the Rise</h1>
           <p className="f6 f5-l lh-copy">
-            A warehouse is a commercial building for storage of goods.
-            Warehouses are used by manufacturers, importers, exporters,
-            wholesalers, transport businesses, customs, etc. They are
-            usually large plain buildings in industrial areas of cities,
-            towns and villages.
+           CWG provides the E-government solution which creates revenue collection platforms to boost government’s internally generated revenue. Examples of CWG’s current solutions include 3rd party insurance systems which are operational in Kano State, and the permits system which allows for setup and management of permits such as building permits, business permits and stamp duty.
           </p>
         </div>
       </div>

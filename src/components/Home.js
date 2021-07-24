@@ -9,19 +9,13 @@ const Home = () => {
   <div className="cf" style={{ background: "url(https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80) no-repeat center center fixed", backgroundSize: "cover" }}>
     <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
       <header className="bb b--black-70 pv4">
-        <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir ngsoft ng">NG<span className="soft">Soft</span><span className="rmt"> Services</span></h3>
+        {/* <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir ngsoft ng">NG<span className="soft">Soft</span><span className="rmt"> Services</span></h3> */}
 				<h4 className="f3 fw4 i lh-title mt0">We Believe in Having the Best in order to give you the best!
 				</h4>
       </header>
       <section className="pt5 pb4">
         	<p className="times lh-copy measure f4 mt0">
-						Prasat Suor Prat (Khmer: ប្រាសាទសួព្រ័ត) is a series of twelve towers spanne
-						north to south lining the eastern side of royal square in Angkor Thom,
-						near the town of Siem Reap, Cambodia. The towers are made from rugged
-						laterite and sandstone. The towers are located right in front of
-						Terrace of the Elephants and Terrace of the Leper King, flanking the
-						start of the road leading east to the Victory Gate, on either side of
-						which they are symmetrically arranged. Their function remains unknown.
+						<span className="ng">NG</span><span className="soft">Soft</span> provides managed services, IT infrastructure support and Digital smart home integration to Houses. Also, vehicle registration and services such as renewal of particulars, plate number licenese. Further more, <span className="ng">NG</span><span className="soft">Soft</span> provides delivery services such as car wash, car repaire, microfinance baank etc. 50% of mobile calls are routed through enterprise servers and storage and are managed and supported by CWG. CWG also provides 40% of telecommunications managed services.
         	</p>
       	</section>
     	</div>

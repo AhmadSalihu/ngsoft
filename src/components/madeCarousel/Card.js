@@ -11,7 +11,7 @@ class Card extends Component {
 						<div className="img-card" key={i}>
 							<img src={src} alt="img" />
 							<div>
-								<h2>{title}</h2>
+								<h3>{title}</h3>
 								<p>{description}</p>
 								<a href="/">Read more</a>
 							</div>

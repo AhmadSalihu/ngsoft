@@ -422,7 +422,7 @@ const data = [
     id: 16,
     imgSrc: Member1,
     altText: "Ahmad Salla'u Gude",
-    title: 'Mal. Aminu Lawal Abdulkarim',
+    title: "Ahmad Salla'u Jr.",
     designation: 'Dev Team',
     socialProfile: [
       {
@@ -463,7 +463,7 @@ const NgsoftStaff = () => {
       <br />
       <div  sx={{ marginTop: "70px"}}>
         {/* <h1 className="staff_title"><span className="ng">NG</span><span className="soft">Soft's  </span> Staff</h1><br /> */}
-        <h4 className="f3 fw4 i lh-title mt0 tc">Our belove team members</h4>
+        <h4 className="f3 fw4 i lh-title mt0 tm tc">Our belove team members</h4>
         <div className="grid">
           {data.map((item) => (
             <TeamCard
