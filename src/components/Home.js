@@ -14,8 +14,8 @@ const Home = () => {
 				</h4>
       </header>
       <section className="pt5 pb4">
-        	<p className="times lh-copy measure f4 mt0">
-						<span className="ng">NG</span><span className="soft">Soft</span> provides managed services, IT infrastructure support and Digital smart home integration to Houses. Also, vehicle registration and services such as renewal of particulars, plate number licenese. Further more, <span className="ng">NG</span><span className="soft">Soft</span> provides delivery services such as car wash, car repaire, microfinance baank etc. 50% of mobile calls are routed through enterprise servers and storage and are managed and supported by CWG. CWG also provides 40% of telecommunications managed services.
+        	<p className="times lh-copy measure f4 fw mt0">
+						<span className="ng">NG</span><span className="soft">Soft</span> provides services delivery, IT infrastructure support and Digital smart home integration. Also, vehicle registration and services such as renewal of particulars, plate number licenese. Further more, <span className="ng">NG</span><span className="soft">Soft</span> provides online support for Farmers by delivering Agro-chemical support for farm produce. <br /> <span className="ng">NG</span><span className="soft">Soft</span> further provide smart digital services such as car wash, car repaire, microfinance bank and Housing rent and management etc. 40% of Housings, Estate, Car wash within Kaduna State are maintain and run under the <span className="ng">NG</span><span className="soft">Soft</span> platform.	<br /> <span className="ng">NG</span><span className="soft">Soft</span> also provides 40% of registered vehicles within Kaduna State.
         	</p>
       	</section>
     	</div>
@@ -45,10 +45,8 @@ const Home = () => {
 						<h1 className="f3 athelas mt0 lh-title cl1"><span className="cl2">HOME </span>MANAGER</h1>
 						<h3 className="f4 athela lh-title cl2 i">The Ultimate House Help</h3><br />
 						<p className="f5 f4-l lh-copy athelas">
-								Digitalized Home Management System.<br /><br />
-									This giant of a whale says it is ready to begin planning a new
-							swim later this afternoon. A powerful mammal that relies on fish and plankton instead
-							of hamburgers
+								Digitalized Home Management System.<br />
+								A Smart way of managing your home activities and repairs from your couch...
 						</p>
 					</div>
 					<div className="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">

@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <>
       {
-        location.pathname === "/"  && (
+        location.pathname === "/aboutpage" ? null : location.pathname === "/what_we_do" ? null :  (
       <footer className="footer">
       <div className="footer-left">
         <img className="logo" src={Ngsoftlogo} alt="NgSoft" />
@@ -35,12 +35,12 @@ const Footer = () => {
         <li>
           <h2 className="head-title">Who We Are</h2>
           <ul className="box">
-            <li><a href='/'>NGSoft at a glance</a></li>
-            <li><a href='/'>NgSoft Board of Directors</a></li>
-            <li><a href='/'>NgSoft Staff</a></li>
-            <li><a href='/'>NgSoft Structure</a></li>
-            <li><a href='/'>NgSoft Partners</a></li>
-            <li><a href='/'>NgSoft Members</a></li>
+            <li><a href='/ngsoftglance'>NGSoft At A Glance</a></li>
+            <li><a href='/boardmembers'>Board of Directors</a></li>
+            <li><a href='/managemen'>Management</a></li>
+            <li><a href='/ngsoftstaff'>NgSoft Staff</a></li>
+            <li><a href='/structure'>Structure</a></li>
+            <li><a href='/parners'>Partners</a></li>
           </ul>
         </li>
          <li>

@@ -37,22 +37,12 @@ export default [
 	},
 	{
 		title: "NGSoft Presentation to KDSG",
-		description: "NGSoft Presentation to Kaduna State Government. (KDSG) By NGSoft Board Members and Staffs ",
+		description: "With Her Excellency deputy Govenor of Kaduna State. Hadiza Sabuwa Balarabe",
 		urls: GH1,
 	},
 	{
 		title: "NGSoft Presentation to KDSG",
-		description: "NGSoft Presentation to Kaduna State Government. (KDSG)  By NGSoft Board Members and Staffs",
-		urls: GH2
-	},
-	{
-		title: "NGSoft Presentation to KDSG",
-		description: "NGSoft Presentation to Kaduna State Government. (KDSG)  By NGSoft Board Members and Staffs",
-		urls: GH3
-	},
-	{
-		title: "NGSoft Presentation to KDSG",
-		description: "NGSoft Presentation to Kaduna State Government. (KDSG)  By NGSoft Board Members and Staffs",
+		description: "With Her Excellency deputy Govenor of Kaduna State. Hadiza Sabuwa Balarabe",
 		urls: GH
 	},
 	{

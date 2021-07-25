@@ -37,8 +37,8 @@ function App() {
           <Route exact path="/partners" component={Partners} />
           <Route exact path="/structure" component={Structure} />
           <Route exact path="/aboutpage" component={About} />
-          <Route exact path="/what__we_do" component={WhatWeDo} />
-          <Route exact path="/our_out_reach" component={OutReach} />
+          <Route exact path="/what_we_do" component={WhatWeDo} />
+          <Route exact path="/out_reach" component={OutReach} />
         </Switch>
       <Footer />
       </Router>

@@ -57,9 +57,9 @@ const Navbarmenu = () => {
                                 <li><NavLink activeClassName='is-active' to={`/partners`}>Our Partners </NavLink> </li>
                             </ul>
                         </li>
-                        <li className="menu-item " ><NavLink activeClassName='is-active' to={`/what__we_do`}>Wha We Do</NavLink> </li>
+                        <li className="menu-item " ><NavLink activeClassName='is-active' to={`/what_we_do`}>Wha We Do</NavLink> </li>
                         <li className="menu-item " ><NavLink activeClassName='is-active' to={`/aboutpage`}>About Us</NavLink> </li>
-                        <li className="menu-item " ><NavLink activeClassName='is-active' to={`/our_out_reach`}>Out Reach</NavLink> </li>
+                        <li className="menu-item " ><NavLink activeClassName='is-active' to={`/out_reach`}>Out Reach</NavLink> </li>
                     </ul>
                     </nav>     
                 </div>   
