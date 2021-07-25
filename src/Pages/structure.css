@@ -163,6 +163,9 @@
     }
 }
 
+.ngsoft{
+    color: goldenrod;
+}
 
 /* structure style2 */
 
@@ -315,5 +318,51 @@
         font-size: 1rem;
     }
 }
+
+
+
+/*  Card column styles*/
+
+.dt {
+    display: table;
+}
+
+.dtc {
+    display: table-cell;
+}
+
+.dt--fixed {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.bg-black-10 {
+    background: linear-gradient(to right, rgb(12, 7, 80), rgb(15, 194, 173));
+}
+
+.bg-black-05 {
+    background: linear-gradient(to right, rgb(12, 7, 80), rgb(15, 194, 173))
+}
+
+.pv4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.tc {
+    text-align: center;
+}
+.col1{
+    color: goldenrod;
+}
+.white{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+
 
 

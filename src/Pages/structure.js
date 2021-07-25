@@ -6,7 +6,7 @@ const Structure = () => {
 	return (
 		<>
 		<article data-name="article-full-bleed-background">
-  		<div className="cf" style={{ background: "url(https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80) no-repeat center center fixed", backgroundSize: "cover" }}>
+  		<div className="cf" style={{ background: "url(https://image.shutterstock.com/image-vector/vector-realistic-black-brick-wall-260nw-609111539.jpg) no-repeat center center fixed", backgroundSize: "cover" }}>
     <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
       <header className="bb b--black-70 pv4">
         <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir ngsoft">Our Structure</h3>
@@ -14,61 +14,27 @@ const Structure = () => {
       </header>
     	</div>
   	</div>
-		</article>
-	<section className="mw7 center avenir">
-  <h2 className="baskerville fw1 ph3 ph0-l">News</h2>
-  <article className="bb b--black-10">
-    <a className="db pv4 ph3 ph0-l no-underline black dim" href="#0">
-      <div className="flex flex-column flex-row-ns">
-        <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <img src="/ngsoftImages/Hm.jpeg" className="db" alt="home" />
-        </div>
-        <div className="w-100 w-60-ns pl3-ns">
-          <h1 className="f3 fw1 baskerville mt0 lh-title">HOME MANAGER</h1>
-          <h3 className="i">THe Ultimate House Help</h3>      
-          <p className="f6 f5-l lh-copy">
-            The tech giant says it is ready to begin planning a quantum
-            computer, a powerful cpu machine that relies on subatomic particles instead
-            of transistors.
+      </article>
+    <div className="dt dt--fixed">
+      <div className="dtc tc pv4 bg-black-10">
+          <h2 className="f3 col1">Software Development</h2> <br />
+          <p className="white f4">NgSoft Developed various software products which are used to carry out various services such as Home management, Smart Banking, Smart Agric, Smart Card, Smart Housing, KadVReg an others.
+           </p><br />
+          <p className="f3 col1">
+
           </p>
-        </div>
       </div>
-    </a>
-  </article>
-  <article className="bb b--black-10">
-    <a className="db pv4 ph3 ph0-l no-underline black dim" href="#0">
-      <div className="flex flex-column flex-row-ns">
-        <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <img src="/ngsoftImages/rncsft.jpeg" className="db" alt="rentcosoft" />
-        </div>
-        <div className="w-100 w-60-ns pl3-ns">
-          <h1 className="f3 fw1 baskerville mt0 lh-title">Warehouse Prices Are Fast on the Rise</h1>
-          <p className="f6 f5-l lh-copy">
-           CWG provides the E-government solution which creates revenue collection platforms to boost government’s internally generated revenue. Examples of CWG’s current solutions include 3rd party insurance systems which are operational in Kano State, and the permits system which allows for setup and management of permits such as building permits, business permits and stamp duty.
+      <div className="dtc tc pv4 bg-black-05">
+          <h2 className="col1 f3">Product Marketing</h2><br />
+          <p className="f4 white">Our Marketing Products Includes; E-Marketing, Digital Marketing, Threat Shows/Bazaar, Seminars/Conferences and Cross Promotions.
           </p>
-        </div>
       </div>
-    </a>
-  </article>
-  <article className="bb b--black-10">
-    <a className="db pv4 ph3 ph0-l no-underline black dim" href="#0">
-      <div className="flex flex-column flex-row-ns">
-        <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <img src="/ngsoftImages/vreg.jpeg" className="db" alt="vreg" />
-        </div>
-        <div className="w-100 w-60-ns pl3-ns">
-          <h1 className="f3 fw1 baskerville mt0 lh-title">Giant Whale Invests Huge Money to Build a Computer Out of Plankton</h1>
-          <p className="f6 f5-l lh-copy">
-            Whale is the common name for a widely distributed and diverse
-            group of fully aquatic placental marine mammals. They are an
-            informal grouping within the infraorder Cetacea, usually
-            excluding dolphins and porpoises.
-          </p>
-        </div>
+      <div className="dtc tc pv4 bg-black-10">
+          <h2 className="col1 f3">Admin and Finance</h2><br />
+          <p className="white f4">Our Admin Services Includes; Client Site Support, Integratipn Linkages, and Q&A </p>
       </div>
-    </a>
-  </article>
-</section>
+  </div>
+
 	</>
 	)
 }

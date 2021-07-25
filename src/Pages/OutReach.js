@@ -30,7 +30,7 @@ const OutReach = () => {
         </div>    
       </div>
       <div>
-        <a href="tel:" className="f6 link blue hover-dark-gray">Coming soon!</a>
+        <a href="tel:" className="f5 link blue hover-dark-gray"> NGSoft<strong> Gambia</strong> Coming soon!</a>
       </div>
   </li>
   <li
@@ -44,7 +44,7 @@ const OutReach = () => {
         </div>    
       </div>
       <div>
-        <a href="tel:" className="f6 link blue hover-dark-gray">Coming soon!</a>
+        <a href="tel:" className="f5 link blue hover-dark-gray">NGSoft <strong> Ghana</strong> Coming soon!</a>
       </div>
   </li>
   <li
@@ -55,7 +55,7 @@ const OutReach = () => {
         <span className="f6 db black-70">NGSoft Liberia</span>
       </div>
       <div>
-        <a href="tel:" className="f6 link blue hover-dark-gray">Coming soon!</a>
+        <a href="tel:" className="f5 link blue hover-dark-gray">NGSoft <strong> Liberia</strong> Coming soon!</a>
       </div>
   </li>
 <li
@@ -66,8 +66,8 @@ const OutReach = () => {
         <span className="f6 db black-70">NGSoft Sierra Leone</span>
       </div>
       <div>
-        <a href="tel:" className="f6 link blue hover-dark-gray">Coming soon!</a>
-      </div>
+        <a href="tel:" className="f5 link blue hover-dark-gray">NGSoft <strong> Sierra Leone</strong> Coming soon!</a>
+    </div>  
   </li>
   <li
     className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
@@ -77,7 +77,7 @@ const OutReach = () => {
         <span className="f6 db black-70">NGSoft kenya</span>
       </div>
     <div>
-        <a href="tel:" className="f6 link blue hover-dark-gray">Coming soon!</a>
+        <a href="tel:" className="f5 link blue hover-dark-gray">NGSoft <strong> Kenya</strong> Coming soon!</a>
       </div>
   </li>
   <li
@@ -88,7 +88,7 @@ const OutReach = () => {
         <span className="f6 db black-70">NGSoft Tanzania</span>
       </div>
       <div>
-        <a href="tel:" className="f6 link blue hover-dark-gray">Coming soon!</a>
+        <a href="tel:" className="f5 link blue hover-dark-gray">NGSoft <strong> Tanzania</strong> Coming soon!</a>
       </div>
   </li>
   <li
@@ -99,7 +99,7 @@ const OutReach = () => {
         <span className="f6 db black-70">NGSoft Uganda</span>
       </div>
       <div>
-        <a href="tel:" className="f6 link blue hover-dark-gray">Coming soon!</a>
+        <a href="tel:" className="f5 link blue hover-dark-gray">NGSoft <strong> Uganda</strong> Coming soon!</a>
       </div>
   </li>
   <li
@@ -110,7 +110,7 @@ const OutReach = () => {
         <span className="f6 db black-70">NGSoft Rwanda</span>
       </div>
       <div>
-        <a href="tel:" className="f6 link blue hover-dark-gray">Coming soon!</a>
+        <a href="tel:" className="f5 link blue hover-dark-gray">NGSoft<strong> Rwanda</strong> Coming soon!</a>
       </div>
   </li>
 </ul>

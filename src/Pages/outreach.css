@@ -30,7 +30,7 @@
 }
 
 .h2 {
-    height: 3rem;
+    height: 2rem;
 }
 
 .lh-copy {
@@ -64,7 +64,7 @@
 }
 
 .w2 {
-    width: 3rem;
+    width: 2rem;
 }
 
 .black-70 {
@@ -89,7 +89,6 @@
 
 .pl0 {
     padding-left: 0;
-    padding-top: 20px;
 }
 
 .pl3 {
@@ -97,23 +96,15 @@
 }
 
 .mt0 {
-    margin-top: 20px;
+    margin-top: 0;
 }
 
 .f6 {
-    font-size: 1.100rem;
-		color: teal;
-		cursor: pointer;
-}
-
-.f6:hover{
-	opacity: 0.1;
-	color: #357edd;
-	cursor: pointer;
+    font-size: .875rem;
 }
 
 .measure {
-    max-width: 40em;
+    max-width: 30em;
 }
 
 .center {
@@ -137,3 +128,9 @@
         padding-right: 0;
     }
 }
+
+
+
+
+
+

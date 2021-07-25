@@ -6,7 +6,7 @@ import * as MdIcons from 'react-icons/md';
 import * as SiIcons from 'react-icons/si';
 
 
-import Ngsoftlogo from "../assets/ngsoftlogo.jpg"
+// import Ngsoftlogo from "../assets/ngsoftlogo.jpg"
 
 import './footer.styles.css';
 
@@ -19,7 +19,7 @@ const Footer = () => {
         location.pathname === "/aboutpage" ? null : location.pathname === "/what_we_do" ? null :  (
       <footer className="footer">
       <div className="footer-left">
-        <img className="logo" src={Ngsoftlogo} alt="NgSoft" />
+        <img className="logo" src="/ngsoftImages/logo1.png" alt="NgSoft" />
         <div className="socials">
           <a href='/'><GrIcons.GrFacebook className="gr" /></a>
           <a href='/'><FaIcons.FaTwitterSquare className="fa" /></a>
