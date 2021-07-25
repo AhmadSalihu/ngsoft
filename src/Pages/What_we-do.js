@@ -9,7 +9,7 @@ const WhatWeDo = () => {
 		<div>
 			<div className="headertag">
 				<h1 className="h1tag">
-					Our Most Dedicated Projects
+					Our Projects
 				</h1>
 			</div>
 			<AbCarousel />

@@ -54,7 +54,7 @@ const Navbarmenu = () => {
                                 <li><NavLink activeClassName='is-active' to={`/management`}>NGSoft Mgt.</NavLink> </li>
                                 <li><NavLink activeClassName='is-active' to={`/boardmembers`}> Board of Directors </NavLink> </li>
                                 <li><NavLink activeClassName='is-active' to={`/structure`}>NGSoft Structure </NavLink> </li>
-                                <li><NavLink activeClassName='is-active' to={`/partners`}>Serv. Del. partners </NavLink> </li>
+                                <li><NavLink activeClassName='is-active' to={`/partners`}>Serv. Del. Partners </NavLink> </li>
                             </ul>
                         </li>
                         <li className="menu-item " ><NavLink activeClassName='is-active' to={`/what_we_do`}>What We Do</NavLink> </li>

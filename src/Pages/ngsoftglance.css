@@ -141,6 +141,9 @@ lh-copy {
         margin-top: 0;
     }
 }
+.board__header{
+ top: 100px;
+}
 .board__members{
     display: block;
     justify-content: center;
@@ -152,6 +155,7 @@ lh-copy {
 .members{
     font-size: 1.5rem;
     color: darkorange;
+    top: 200px;
     font-weight: 400;
 }
 .board__team{

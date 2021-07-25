@@ -103,7 +103,7 @@ const BoardMembers = () => {
       <div claasName="board__header">
         <div className="board__members">
         <h1 className="members">Board Members</h1>
-        <span className="board__team">Our Team of talented individuals</span>
+        <span className="board__team">Our Team of Talent Individuals</span>
         </div>
         <div className="grid">
           {data.map((item) => (
