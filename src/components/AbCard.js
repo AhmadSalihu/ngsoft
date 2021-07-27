@@ -3,17 +3,16 @@ import '../components/madeCarousel/carousel.styles.css'
 
 class Card extends Component {
 	  render() {
-			const { data } = this.props;
-			console.log(data)
+		const { data } = this.props;
 		return (
 			<>
 				{
-					data.map((item, i) => (
+					data.map(({i, src, title, description}) => (
 						<div className="img-card" key={i}>
-							<img src={item.src} alt="img" />
-							<div >
-								<h3>{item.title}</h3>
-								<p>{item.description}</p>
+							<img src={src} alt="img" />
+							<div>
+								<h3>{title}</h3>
+								<p>{description}</p>
 								<a href="/">Read more</a>
 							</div>
 						</div>

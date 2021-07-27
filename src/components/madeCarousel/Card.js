@@ -1,26 +1,22 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './carousel.styles.css'
 
-class Card extends Component {
-	  render() {
-		const { data } = this.props;
-		return (
-			<>
-				{
-					data.map(({i, src, title, description}) => (
-						<div className="img-card" key={i}>
-							<img src={src} alt="img" />
-							<div>
-								<h3>{title}</h3>
-								<p>{description}</p>
-								<a href="/">Read more</a>
-							</div>
-						</div>
-					))
-				}
+const Card = ({ item }) => {
+	const [showInfo, setShowInfo] = useState(false)
+	
+	return (
+		<>
+			<div className="img-card">
+				<img src={item.src} alt="img" />
+				<div >
+					<h3>{item.title}</h3><br />
+					<h4>{item.description}</h4><br />
+					{showInfo &&  <p>{item.moreInfo}</p>}		
+					<button onClick={() => setShowInfo(!showInfo)}>{showInfo ? <span>Less Info</span> : <span>More Info</span>}</button>
+				</div>
+			</div>
 			</>
 		)
 	}
-}
-
-export default Card
+	
+	export default Card

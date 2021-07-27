@@ -1,34 +1,33 @@
 [
     {
-        "src": "ngsoftImages/bcc.jpeg",
-        "title": "AGRICARD1.png",
+        "src": "ngsoftImages/Mfbank.png",
+        "title": "Microfinance Bank",
         "description": "Digitilized Land Admin System",
         "link": ""
     },
     {
         "src": "ngsoftImages/Hm.jpeg",
         "title": "Home Manager",
-        "description": "Digitilized Home Management System"
+        "description": "Digitilized Home Management System",
+        "moreInfo": "Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System"
     },
     {
         "src": "ngsoftImages/mxlnd.jpeg",
         "title": "MaxLand",
-        "description": "Digitilized Land and Property Registration System"
+        "description": "Digitilized Land and Property Registration System",
+        "moreInfo": "Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System"
     },
     {
         "src": "ngsoftImages/rncsft.jpeg",
         "title": "RencoSoft",
-        "description": ""
+        "description": "Digitalized Home Rrent System",
+        "moreInfo": "Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System"
     },
     {
-        "src": "ngsoftImages/AgriCard.png",
-        "title": "Product 10",
-        "description": ""
-    },
-    {
-        "src": "ngsoftImages/vreg.jpeg",
+        "src": "ngsoftImages/vreg.png",
         "title": "KadVreg",
-        "description": "Digitilized Smart Vehicle Registration System"
+        "description": "Digitilized Smart Vehicle Registration System",
+        "moreInfo": "Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System"
     }
       
 ]

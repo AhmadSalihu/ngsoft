@@ -30,7 +30,8 @@ const Footer = () => {
       <ul className="footer-right">
         <li className="features">
           <h2 className="head-title">About Us</h2>
-          <p>With almost a decades of immense contribution to the software technology, NGSoft has choose to maximize the time of people by, lessening the burden of the society, NgSoft has continuously remained a benchmark for excellence in Nigeria.</p>
+          <p>NGSoft is set for design and development Products and Services targeted at the Digitization of Processes, in the Commercial, Public and Social Subsectors. NGSoft has continuously remained a benchmark for excellence in Vehicular and Transportations, Governance and Finance, Home and Property as well various Social Services in Nigeria. We have Since set scene for expansion to English Speaking West and East African countries in the immediate near future.
+</p>
         </li>        
         <li>
           <h2 className="head-title">Who We Are</h2>
@@ -47,8 +48,12 @@ const Footer = () => {
           <h2 className="head-title">Our Location</h2>
           <h4>HEAD OFFICE</h4>
           <ul className="box">
-            <p>Suite #GF5 Ground Floor, Bank of Industries Building Muhammadu Buhari Way, Kaduna</p>
-            <p><MdIcons.MdCall className="md" />  +2348033033694</p>      
+            <p>Suite #GF5 Ground Floor, 
+Bank of Industries Building, 
+No 18 Muhammadu Buhari Way, 
+Kaduna Nigeria
+</p>
+            <p><MdIcons.MdCall className="md" /> +2348033033694</p>      
             <p><SiIcons.SiMailDotRu className="ri" />  ngsoft.ng@gmail.com</p>      
           </ul>
         </li>

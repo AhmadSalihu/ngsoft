@@ -18,20 +18,18 @@ const Structure = () => {
     <div className="dt dt--fixed">
       <div className="dtc tc pv4 bg-black-10">
           <h2 className="f3 col1">Software Development</h2> <br />
-          <p className="white f4">NgSoft Developed various software products which are used to carry out various services such as Home management, Smart Banking, Smart Agric, Smart Card, Smart Housing, KadVReg an others.
-           </p><br />
-          <p className="f3 col1">
-
+          <p className="white flex i f4">
+      NGSoft Develops Software Products for Various Services and Sectors. Such As: Home Manager, Maxiland and Smart Housing for the Home Property Sub Sector, Smart Motoring Consisting of NVreg.ng for Vehicles Registrations, E-TMS.ng for Electronic Traffic Management and NVMS.ng for General Vehicles Management Services as well as Safejoni.ng for Commuter Administration. NGSoft Equally are the Innovators of mfbankng Smart Banking, Avatech.ng Smart- Market Delivery System and Smart- Pay a QR Payment System and Insuretech.ng a Smart- Risk Management. For The Public Sector We Developed and Deliver Smart- Govt, Smart-Revenues, Smart- Health and Smart Agric and Many More.  
           </p>
       </div>
       <div className="dtc tc pv4 bg-black-05">
           <h2 className="col1 f3">Product Marketing</h2><br />
-          <p className="f4 white">Our Marketing Products Includes; E-Marketing, Digital Marketing, Threat Shows/Bazaar, Seminars/Conferences and Cross Promotions.
+          <p className="f4 white">Our Products Marketing Modules and Systems Includes though not limited to; Social Media E-Marketing, Digital Marketing, Trade Shows and Products Bazaars, With Seminars, Conferences and Cross Promotions.
           </p>
       </div>
       <div className="dtc tc pv4 bg-black-10">
           <h2 className="col1 f3">Admin and Finance</h2><br />
-          <p className="white f4">Our Admin Services Includes; Client Site Support, Integratipn Linkages, and Q&A </p>
+          <p className="white f4">Our Admin Services Includes; Client Support, Integrations Linkages, and Q & A Administrations </p>
       </div>
   </div>
 

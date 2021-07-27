@@ -20,34 +20,29 @@
 		"src": "ngsoftImages/CommandCard.png" 
 	},
 	{
-		"title": "Command Card",
+		"title": "Airfoce Card",
 		"description": "Digitilized Smart Card Systems",
-		"src": "AboutImg/CommandCardAirforce.jpg" 
+		"src": "ngsoftImages/Airforce.png" 
 	},
 	{
 		"title": "Army Card",
 		"description": "Digitilized Smart Card Systems",
-		"src": "AboutImg/CommandCardArmy.jpg" 
+		"src": "ngsoftImages/Army.png" 
 	},
 	{
 		"title": "Campos Card",
 		"description": "Digitilized Smart Campos Card Systems",
-		"src": "ngsoftImages/Campose.png" 
+		"src": "ngsoftImages/campos.png" 
 	},
 	{
 		"title": "Confluence",
 		"description": "Digitilized Smart Card System",
-		"src": "AboutImg/cnflunce.jpg"
+		"src": "ngsoftImages/conflunce.png"
 	},
 	{
 		"title": "Kastelea Card",
 		"description": "Digitilized Smart Card System",
 		"src": "AboutImg/Kastelea.jpg" 
-	},
-	{
-		"title": "KadVreg",
-		"description": "Digitilized Vehicle Online registration Registrtion System",
-		"src": "AboutImg/Kavreg.jpg"
 	},
 	{
 		"title": "MediCard",
@@ -65,11 +60,6 @@
 		"src": "AboutImg/Ktc01.jpg" 
 	},
 	{
-		"title": "MfBanking",
-		"description": "Digitilized Micro-Finance Card System", 
-		"src": "ngsoftImages/Mfbank.png" 
-	},
-	{
 		"title": "PinkCard",
 		"description": "Digitilized lady's Card Systems",
 		"src": "ngsoftImages/PinkCard.png" 
@@ -82,22 +72,12 @@
 	{
 		"title": "Bride City Card",
 		"description": "Digitilized Bride City Card Systems",
-		"src": "AboutImg/Smrt02.jpg"
+		"src": "ngsoftImages/bcc.png"
 	}, 
 	{
 		"title": "Bride City Card",
 				"description": "Digitilized Bride City Card Systems",
 		"src": "AboutImg/Smrt01.jpg" 
-	},
-	{
-		"title": "Kadvreg",
-		"description": "Digitilized Vehicle Online registration Registration.",
-		"src": "AboutImg/Kadvrg01.jpg"
-	},
-	{
-		"title": "Kadvreg",
-		"description": "Digitilized Vehicle Online registration Registration.",
-		"src": "AboutImg/Kadvreg0.jpg"
 	},
 	{
 		"title": "KADRIS",
@@ -110,23 +90,13 @@
 		"src": "AboutImg/Kadris.jpg" 
 	},
 	{
-		"title": "A",
+		"title": "Home Manager Card",
 		"description": "Digitilized Smart Card Systems",
-		"src":"AboutImg/HomeCard.jpg"
+		"src":"ngsoftImages/HMCard.png"
 	},
 	{
-		"title": "A",
+		"title": "Safe Journey Card",
 		"description": "Digitilized Smart Card Systems",
 		"src": "ngsoftImages/SafeJ.png" 
-	},
-	{
-		"title": "A",
-		"description": "Digitilized Smart Card Systems",
-		"src": "AboutImg/E-wllt02.jpg"
-	},
-	{
-		"title": "A",
-		"description": "Digitilized Smart Card Systems",
-		"src": "AboutImg/E-wllet.jpg"
 	}
 ]

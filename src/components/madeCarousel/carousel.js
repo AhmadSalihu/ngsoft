@@ -45,7 +45,11 @@ class MadeCarousel extends Component {
 		return (
 				<div className="wrapper">
 				<div className="app" ref={this.myRef}>
-					<Card data={data} />
+				{
+						data.map((item, i) => (
+					<Card key={i} item={item} />
+					))	
+				}
 				</div>
 				<div className="row">
 					<div className="prev" onClick={this.prevClick}>

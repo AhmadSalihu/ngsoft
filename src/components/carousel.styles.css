@@ -16,18 +16,18 @@ body{
 	max-width: 1400px;
 	width: 100%;
 	min-height: 250px;
-	top: 75%;
-	left: 55%;
+	top: 80%;
+	left: 50%;
 	right: 30%;
 	position: absolute;
 	transform: translate(-50%, -50%);
 	margin: auto;
 	background: var(--clr-white);
-	margin-bottom: auto;
 	padding: 10px;
 	box-shadow: 5px 20px rgba(255, 244, 244, 0.4);
-	margin-bottom: 30px;
+	margin-top: 315px;
 }
+
 .app{
 	width: 100%;
 	display: flex;
