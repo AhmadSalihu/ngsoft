@@ -15,9 +15,11 @@ const NgsoftGlance = () => {
   	</div>
 	</article>
 			<br />
-		<div className="fle bgclr">
+      <div className="fle bgclr">
 			<article className="pa3 pa5-ns">
+        <div data-aos="fade-down-right">
   <img src="/ngsoftImages/companylogo.png" className="w-100 f5 measure" alt="outer space" />
+    </div>
   <p className="measure lh-copy">
 Over time, we have received a number of accolades from our partners, customers, media and professional bodies as a result of our service excellence and increased performance. Most recently, The World Economic Forum (WEF) recognized CWG Plc as a Global Growth Company.
   </p>
@@ -27,12 +29,18 @@ Over time, we have received a number of accolades from our partners, customers, 
 </article>
 <article className="pa3 pa5-ns">
   <h1 className="ng  txtcut">NG<span className="soft">Soft</span></h1>
+  <div data-aos="fade-down-left">
+            
   <p className="measure lh-copy">
    With over two decades of immense contribution to the Information and Communication Technology sector, NGSoft-Services has continuously remained a benchmark for excellence in Nigeria. The company commenced operations in Kaduna State Nigeria, on September 26th 2018 as Computer Warehouse Limited principally to cater for the hardware projects. In 1994, DCC Networks was established as the communication arm to provide VSAT, Metropolitan, Wide Area and Local area networks to corporate organizations. To concentrate on demands in the area of software solutions, system and training, the Expert Edge software was acquired in 1997
   </p><br />
+  </div>    
+  <div data-aos="flip-down">
+            
   <p className="measure lh-copy">
       In 2020,<strong className="f3"><span className="ng">NG<span className="soft">Soft </span></span></strong> was incorporated to coordinate and monitor the activities of the three subsidiaries. Prior to this establishment, a branch in Ghana was set-up in 2003 to cater to the needs of the West African region. The Group Company was formed to provide Head Office functions and Shared Resources for the subsidiaries from a central point to make them leaner, efficient and more customer-focused. By 2012, CWG Plc merged with its three subsidiaries and this made the subsidiaries cease to exist as separate entities, rather as divisions. In pursuit of its Pan-African Vision, CWG Plc established other regional offices in East and Central Africa; CWG Uganda Limited (2010) and CWG Plc Cameroon Limited (2012) respectively to handle the business interest in these regions.
   </p>
+  </div>        
 			</article>
 	</div>		
 	</>

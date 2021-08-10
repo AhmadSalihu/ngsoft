@@ -4,12 +4,12 @@
 }
 
 :root{
-	--heights: 80vh;
-	--widths: 80vw;
+	--heights: 50vh;
+	--widths: 100vw;
 }
 .slider-container{
-	height: var(--heights);
-	width: var(--widths);
+	height: 50vh;
+	width:  100%;
 	position: relative;
 	margin: auto;
 	overflow: hidden;
@@ -25,20 +25,37 @@
 
 .slides{
 	height: var(--heights);
-	width: var(--widths);	
+	width: 100%;	
 	position: absolute;
+}
+.slide-all{
+	width: 100%;
 }
 
 .slide-image{
-	width: var(--widths);
-	height: var(--heights);
+	width: 100%;
+	height: 50vh;
 	position: absolute;
 	object-fit: contain;
 }
-section img{
+/* section img{
 	width: var(--widths);
 	height: var(--heights);
+} */
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 }
+.btm{
+	margin-top: 40px;
+	color: #ff8000;
+	font-size: large;
+	margin: 40px;
+ font-weight: 500;
+}
+
 
 .slide-text,
 .slide-title{
@@ -54,7 +71,7 @@ section img{
 	z-index: 10;
 }
 .slide-title{
-	top: 200px;
+	top: 40%;
 }
 .slide-text{
 	top: 65%;

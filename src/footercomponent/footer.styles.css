@@ -109,21 +109,29 @@ li h2{
   text-decoration: none;
   display: inline-block;
   margin-right: 5px;
+  margin-top: 30px;
   /* transition: all 0.3s ease */
 }
-.md,
-.ri{
+/* .ins,
+.wt{
   width: 20px;
   height: auto;
   display: inline;
   align-items: center;
   margin-top: 5px;
   margin-right: 6px;
-}
-.gr,
-.fa{
+} */
+.twt,
+.fcb,
+.ins,
+.wt{
   width: 30px;
   height: auto;
+  color: rgb(27, 27, 240);
+}
+.ins{
+  color: null;
+color: linear-gradient( #405DE6, #5851DB, #833EB4, #C13584, #E1306C, #FD1D1D);  
 }
 /*  */
 @media screen and (min-width: 600px){

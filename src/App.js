@@ -11,7 +11,7 @@ import OutReach from './Pages/OutReach'
 import Partners from './Pages/partners'
 import Home from './components/Home';
 import About from './components/About';
-
+import AOS from 'aos';
 // import AboutUs from 
 
 import Navbarmenu from './components/Navbarmenu';
@@ -20,6 +20,7 @@ import Slider from './components/Slider';
 import Footer from './footercomponent/Footer'
 import WhatWeDo from './Pages/What_we-do';
 
+AOS.init();
 
 function App() {
   return (

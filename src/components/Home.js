@@ -5,11 +5,10 @@ import './home.css';
 const Home = () => {
 	return (
 		<>
-		<article data-name="article-full-bleed-background">
+		{/* <article data-name="article-full-bleed-background">
   <div className="cf" style={{ background: "url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg) no-repeat center center fixed", backgroundSize: "cover" }}>
     <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
       <header className="bb b--black-70 pv4">
-        {/* <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir ngsoft ng">NG<span className="soft">Soft</span><span className="rmt"> Services</span></h3> */}
 				<h4 className="f3 fw4 i lh-title mt0">We Believe in Having the Best in order to give you the best!
 				</h4>
       </header>
@@ -20,11 +19,12 @@ const Home = () => {
       	</section>
     	</div>
   	</div>
-	</article>
+	</article> */}
 			<br />
 			<br />
 			<section className="mw7 center">
 			<h2 className="athelas ph3 ph0-l">News</h2>
+			<div data-aos="fade-left">	
 			<article className="pv4 bt bb b--black-10 ph3 ph0-l">
 				<div className="flex flex-column flex-row-ns">
 					<div className="w-100 w-60-ns pr3-ns order-2 order-1-ns">
@@ -39,6 +39,8 @@ const Home = () => {
 					</div>
 				</div>
 			</article>
+				</div>
+			<div data-aos="fade-left">	
 			<article className="pv4 bb b--black-10 ph3 ph0-l">
 				<div className="flex flex-column flex-row-ns">
 					<div className="w-100 w-60-ns pr3-ns order-2 order-1-ns">
@@ -54,6 +56,8 @@ const Home = () => {
 					</div>
 				</div>
 			</article>
+			</div>
+					<div data-aos="fade-left">
 			<article className="pv4 bb b--black-10 ph3 ph0-l">
 				<div className="flex flex-column flex-row-ns">
 					<div className="w-100 w-60-ns pr3-ns order-2 order-1-ns">
@@ -67,9 +71,10 @@ const Home = () => {
 					</div>
 					<div className="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
 						<img src="/ngsoftImages/vreg.jpeg" className="db" alt="" />
+					</div>	
 					</div>
-				</div>
 			</article>
+			</div>
 			</section>
 	</>
 	)
