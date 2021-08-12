@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider from '../components/aboutslider/slider';
+// import Slider from '../components/aboutslider/slider';
 // import data from './about.data';
 // import AboutCard from './AboutCard';
 // import MadeCarousel from './madeCarousel/carousel';

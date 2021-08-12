@@ -6,7 +6,7 @@ const reviews = [
     name: 'Ahmad Tafia Jalingo',
     job: 'CEO',
     image: Ceo,
-    text: "Ahmad Tafida Jalingo is the founder and Ceo of NGSoft Company, He is from Jalingo Taraba State and he currently lives in Kaduna. " + "He is so passionate towards technology and has improve the lives of many citizens in Kaduna State Nigeria. By his unique ideas of software and how software cn be used to help ease many hardship that people are facing in this our time."
+    text: "Ahmad Tafida Jalingo is the founder and Ceo of NGSoft Company, He is from Jalingo Taraba State and he currently lives in Kaduna.  He is so passionate towards technology and has improve the lives of many citizens in Kaduna State Nigeria. By his unique ideas of software and how software cn be used to help ease many hardship that people are facing in this our time."
   },
   {
     id: 2,

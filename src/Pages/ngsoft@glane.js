@@ -1,17 +1,19 @@
 import React from 'react'
 import "../components/home.css"
 
+
+
 const NgsoftGlance = () => {
 	return (
 		<>
-		<article data-name="article-full-bleed-background">
-  <div className="cf" style={{ background: "url(https://images.ctfassets.net/hrltx12pl8hq/5KiKmVEsCQPMNrbOE6w0Ot/341c573752bf35cb969e21fcd279d3f9/hero-img_copy.jpg?fit=fill&w=800&h=300) no-repeat center center fixed", backgroundSize: "cover" }}>
-    <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
-      <header className="b--black-70 pv4">
-        <h3 className="f2 fw7 ttu tracked lh-title avenir ngsoft ng">NG<span className="soft">Soft</span><span className="at"></span></h3>
+		<article data-name="">
+  <div className="cf">
+    <div className="fl pa3 pa4-nsblack-70  f3 times bg-black opacity-bg">
+      <header className="b--black-70  pv4">
+        <h3 className="f2 fw7 tracked lh-title avenir ngsoft ng">NG<span className="soft">Soft</span><span className="at"></span> at a glance</h3>
         <h4 className="f3 fw4 i lh-title mt0"></h4>
       </header>
-    	</div>
+     </div> 
   	</div>
 	</article>
 			<br />
@@ -21,10 +23,10 @@ const NgsoftGlance = () => {
   <img src="/ngsoftImages/companylogo.png" className="w-100 f5 measure" alt="outer space" />
     </div>
   <p className="measure lh-copy">
-Over time, we have received a number of accolades from our partners, customers, media and professional bodies as a result of our service excellence and increased performance. Most recently, The World Economic Forum (WEF) recognized CWG Plc as a Global Growth Company.
+Over time, we have received a number of accolades from our partners, customers, media and professional bodies as a result of our service excellence and increased performance.
   </p>
   <p className="measure lh-copy">
-     <strong className="f3"><span className="ng">NG<span className="soft">Soft </span></span></strong> believes in excellence  service delivery, and has  pursues an excellent service culture, and delivers its operations throughout Kaduna State and Nigeria at large Using the best excellent <strong>Softwares</strong>.          
+     <strong className="f3"><span className="ng">NG<span className="soft">Soft </span></span></strong> believes in excellence  service delivery, and has  pursue an excellent service culture, and delivers its operations throughout Kaduna State and Nigeria at large using the best <strong>software technology</strong>.          
   </p>
 </article>
 <article className="pa3 pa5-ns">

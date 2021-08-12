@@ -6,11 +6,11 @@ import Mfb from '../assets/ngsoftImages/Mfbank.png'
 import AGRIC1 from '../assets/ngsoftImages/AGRIC1.png'
 import Rg from '../assets/ngsoftImages/rg.jpeg'
 import Gh01 from "../assets/ngsoftImages/gh01.png"
-import GH3 from '../assets/ngsoftImages/gh3.png'
+// import GH3 from '../assets/ngsoftImages/gh3.png'
 import GH1 from '../assets/ngsoftImages/gh1.png'
 import Hm from '../assets/ngsoftImages/Hm.jpeg'
 import GH from '../assets/ngsoftImages/gh0.png'
-import GH2 from '../assets/ngsoftImages/gh2.png'
+// import GH2 from '../assets/ngsoftImages/gh2.png'
 
 
 export default [
