@@ -1,10 +1,12 @@
 import React from 'react';
+// import data from './partners.iata'
+// import PartnersMap from './partnersMap';
 
 import '../components/partners.css';
 
 const Partners = () => {
   return (
- <section className="cf w-70-ns pa5-ns">
+ <section className="cf w-70  row center pa2-ns">
   <article className="fl w-100 w-50-m w-25-ns pa2-ns">
     <div className="aspect-ratio aspect-ratio--1x1">
       <img src="/partners/I1.jpg" alt="" 

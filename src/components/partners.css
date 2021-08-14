@@ -139,61 +139,15 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* .br4 {
-    border-radius: 1rem;
+.section-header{
+    width: 70%;
+    height: auto;
+    display: block;
 }
-
-.dib {
-    display: inline-block;
+.partners-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.h3 {
-    height: 10rem;
-}
-
-.w3 {
-    width: 10rem;
-}
-
-.pa4 {
-    margin-left: 3rem;
-    padding: 2rem;
-}
-
-.tc {
-    text-align: center;
-}
-
-
-@media screen and (min-width: 30em) {
-    .w-25-ns {
-        width: 25%;
-    }
-}
-
-@media screen and (min-width: 30em) and (max-width: 60em) {
-    .w-50-m {
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 60em) {
-    .w-25-l {
-        width: 25%;
-    }
-
-    .w-50-l {
-        width: 50%;
-    }
-}
- */

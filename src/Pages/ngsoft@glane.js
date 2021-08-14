@@ -3,21 +3,29 @@ import "../components/home.css"
 
 
 
-const NgsoftGlance = () => {
+const NgsoftGlance = (props) => {
+  const routePath = () => {
+    props.history.push('/partners');
+  }
 	return (
 		<>
 		<article data-name="">
   <div className="cf">
-    <div className="flex pa3 pa4-nsblack-70  f3 times bg-black">
-      <header className="b--black-70  pv4">
-        <h3 className="f2 fw7 tracked lh-title avenir ngsoft ng">NG<span className="soft">Soft</span><span className="at"></span> at a glance</h3>
-        <h4 className="f3 fw4 i lh-title mt0"></h4>
+    <div className="flex pa3 pa4-nsblack-70 times bg-black">
+      <header className="b--black-70 w-50-ns  white pv4">
+              <div>
+                 <h1 className="tc lh-copy"><strong className="f3"><span className="ng">NG<span className="soft">Soft </span></span></strong>  has continuously remained a benchmark for excellence in Nigeria.</h1>
+              <p className="pa2 tc f4">NGSoft services believes in and pursues an excellent service culture.</p><br />
+             </div>
+      <button className="btn f3 pa2" onClick={routePath}>See Our partners</button> 
+        {/* <h3 className="f2 fw7 tracked lh-title avenir ngsoft ng">NG<span className="soft">Soft</span><span className="at"></span> at a glance</h3>
+        <h4 className="f3 fw4 i lh-title mt0"></h4> */}
       </header>
      </div> 
   	</div>
 	</article>
 			<br />
-      <div className="fle bgclr">
+      <div className="fle bgc">
 			<article className="pa3 pa5-ns">
         <div data-aos="fade-down-right">
   <img src="/ngsoftImages/companylogo.png" className="w-100 f5 measure" alt="outer space" />

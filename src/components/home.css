@@ -441,3 +441,8 @@ header .ngsoft{
         padding: 4rem;
     }
 }
+.btn{
+    background-color: #eee;
+    color: black;
+    border-radius: 10px;
+}

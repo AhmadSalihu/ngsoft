@@ -9,8 +9,11 @@ const Structure = () => {
   		<div className="cf" style={{ background: "url(https://image.shutterstock.com/image-vector/vector-realistic-black-brick-wall-260nw-609111539.jpg) no-repeat center center fixed", backgroundSize: "cover" }}>
     <div className="fl pa3 pa4-ns white black-60 f3 times">
       <header className="bb pv4">
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
         <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir ngsoft">Our Structure</h3>
         <h4 className="f3 fw4  w-50-ns i lh-title mt0">Earlier on in 2018, <strong className="ng">NGSoft</strong> restructured itself's into various software development units in order to deliver improved products and services to its customers. The various sectors are listed below, and are still inprogress.</h4>
+          </div>        
       </header>
     	</div>
   	</div>
