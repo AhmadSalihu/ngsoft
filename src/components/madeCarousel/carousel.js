@@ -7,7 +7,8 @@ import './carousel.styles.css'
 
 class MadeCarousel extends Component {
 	state = {
-		data: []
+		data: [],
+		next: false
 	}
 
 	myRef = React.createRef();
@@ -20,8 +21,16 @@ class MadeCarousel extends Component {
 
 	componentDidMount() {
 		this.getData();
+		this.timer = setInterval(
+            () => this.setState(prevClick => ({ next: prevClick.nextClick })),
+            5000,
+        );
+
 	}
 
+    componentWillUnmount() {
+        clearInterval(this.timer);
+    }
 
  prevClick = () => {
 	 const slide = this.myRef.current;

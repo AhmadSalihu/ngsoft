@@ -1,19 +1,17 @@
 import React from 'react';
-// import data from './partners.iata'
-// import PartnersMap from './partnersMap';
 
 import '../components/partners.css';
 
 const Partners = () => {
   return (
- <section className="cf w-100 pa2-ns">
-  <article className="fl w-100 w-50-m  w-25-ns pa2-ns">
+ <section className="cf w-70-ns pa5-ns">
+  <article className="fl w-100 w-50-m w-25-ns pa2-ns">
     <div className="aspect-ratio aspect-ratio--1x1">
       <img src="/partners/I1.jpg" alt="" 
       className="db bg-center cover aspect-ratio--object" />
     </div>
   </article>
-  <article className="fl w-100 w-50-m  w-25-ns pa2-ns">
+  <article className="fl w-100 w-50-m w-25-ns pa2-ns">
     <div className="aspect-ratio aspect-ratio--1x1">
       <img src="/partners/I2.jpg" alt="" 
       className="db bg-center cover aspect-ratio--object" />
@@ -97,13 +95,13 @@ const Partners = () => {
       className="db bg-center cover aspect-ratio--object" />
     </div>
   </article>
-  <article className="fl w-100 w-50-m  w-25-ns pa2-ns">
+  <article className="fl w-100 w-50-m w-25-ns pa2-ns">
     <div className="aspect-ratio aspect-ratio--1x1">
       <img src="/partners/I16.jpg" alt="" 
       className="db bg-center cover aspect-ratio--object" />
     </div>
   </article>
-  <article className="fl w-100 w-50-m  w-25-ns pa2-ns">
+  <article className="fl w-100 w-50-m w-25-ns pa2-ns">
     <div className="aspect-ratio aspect-ratio--1x1">
       <img src="/partners/I17.jpeg" alt="" 
       className="db bg-center cover aspect-ratio--object" />
@@ -149,8 +147,7 @@ const Partners = () => {
     <div className="aspect-ratio aspect-ratio--1x1">
       <img src="/partners/I24.jpeg" alt="" 
       className="db bg-center cover aspect-ratio--object" />
-    </div>
-    
+    </div>    
   </article>
 </section>
 

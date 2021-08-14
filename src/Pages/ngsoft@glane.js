@@ -8,7 +8,7 @@ const NgsoftGlance = () => {
 		<>
 		<article data-name="">
   <div className="cf">
-    <div className="fl pa3 pa4-nsblack-70  f3 times bg-black opacity-bg">
+    <div className="flex pa3 pa4-nsblack-70  f3 times bg-black">
       <header className="b--black-70  pv4">
         <h3 className="f2 fw7 tracked lh-title avenir ngsoft ng">NG<span className="soft">Soft</span><span className="at"></span> at a glance</h3>
         <h4 className="f3 fw4 i lh-title mt0"></h4>

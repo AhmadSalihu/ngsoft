@@ -14,9 +14,9 @@ const About = () => {
 			{/* <Slider /> */}
     <article data-name="article-full-bleed-background">
   <div className="cf" style={{ background: "url(https://www.zerox24.com/wp-content/uploads/2020/07/Technology-related-business-ideas.png) no-repeat center center fixed", backgroundSize: "cover" }}>
-    <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
+    <div className="flex pa3 pa4-ns black-70 f3 times">
       <header className="b--black-70 pv4">
-        <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">About Us</h3>
+        <h3 className="f2 fw7 ttu tracked lh-title mt8 mb3 avenir">About Our</h3>
         {/* <h4 className="f3 fw4 i lh-title mt0">Ngsoft Is a life Solution software Company</h4> */}
       </header>
 			</div>

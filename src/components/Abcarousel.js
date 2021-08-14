@@ -32,18 +32,21 @@ class AbCarousel extends Component {
 	};
 
 
- nextClick = () => {
+	nextClick = () => {
 		const slide = this.myRef.current;
-	 slide.scrollLeft += slide.offsetWidth;
-	 if (slide.scrollLeft >= (slide.scrollWidth - slide.offsetWidth)) {
-		 slide.scrollLeft = 0; 
-	 }
+	 setTimeout(() => {
+		 slide.scrollLeft += slide.offsetWidth;
+		 if (slide.scrollLeft >= (slide.scrollWidth - slide.offsetWidth)) {
+			 slide.scrollLeft = 0; 
+		 }
+	 }, 3000);
 	};
  
 	render() {
 		const { data } = this.state;
+
 		return (
-				<div className="wrapper">
+			<div className="wrapper">
 				<div className="app" ref={this.myRef}>
 					<AbCard data={data} />
 				</div>
