@@ -48,7 +48,7 @@ Over time, we have received a number of accolades from our partners, customers, 
   <div data-aos="flip-down">
             
   <p className="measure lh-copy">
-      In 2020,<strong className="f3"><span className="ng">NG<span className="soft">Soft </span></span></strong> was incorporated to coordinate and monitor the activities of  KADRIS, Home Management within Kaduna state.
+      In 2020,<strong className="f3"><span className="ng">NG<span className="soft">Soft </span></span></strong> was incorporated to coordinate and monitor the activities of  KADRIS and Home Management within Kaduna state.
   </p>
   </div>        
 			</article>
