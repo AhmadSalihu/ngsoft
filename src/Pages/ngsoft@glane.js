@@ -10,7 +10,7 @@ const NgsoftGlance = (props) => {
 	return (
 		<>
 		<article data-name="">
-  <div className="cf">
+  <div className="cf bottom-top top">
     <div className="flex pa3 pa4-nsblack-70 times bg-black">
       <header className="b--black-70 w-50-ns  white pv4">
               <div>

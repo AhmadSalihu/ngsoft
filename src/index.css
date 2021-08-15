@@ -47,11 +47,15 @@ a:hover{
 .row.center{
 	justify-content: center;
 }
+
 .bottom-top{
   padding-top: 20px;
  bottom: 40px;
  /* opacity: .8; */
  font-size: larger;
+}
+.top{
+  padding-top: 100px;
 }
 .opacity-bg{
   background: fixed;
@@ -101,9 +105,11 @@ align-items: center;
   font-size: 1rem;
 }
 .btn-style{
-  background-color: tomato;
+  background-color: goldenrod;
   border-radius: 3px;
   font-size: 1rem;
+  color: whitesmoke;
+  cursor: pointer;
 }
 .particles{
   position: fixed;
@@ -114,5 +120,6 @@ align-items: center;
   z-index: -1;
 }
 .bgc{
-  background-color: #b2beb5;
+  background-color: #cccaca;
+  opacity: 0.8;
 }

@@ -8,8 +8,8 @@ import MadeCarousel from '../components/madeCarousel/carousel';
 
 const WhatWeDo = () => {
 	return (
-		<div>
-			<div className="headertag">
+	<section className="cf w-80  row center pa2-ns">
+			<div className="headertag top">
 				<h1 className="h1tag">
 					Our Projects
 				</h1>
@@ -25,7 +25,7 @@ const WhatWeDo = () => {
     <cite className="f6 tracked fs-normal">―NGSoft</cite>
   </blockquote>
     </div>
-		</div>
+		</section>
 	)
 }
 

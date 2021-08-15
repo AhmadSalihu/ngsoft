@@ -22,7 +22,7 @@ header .ngsoft{
 }
 .bgclr{
     color: #eee;
-    background: linear-gradient(to right, rgb(12, 7, 80), rgb(15, 194, 173));
+    background-color: #b2beb5;
 }
 .ng{
     color: green;
@@ -46,7 +46,7 @@ header .ngsoft{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: linear-gradient(to right, rgb(12, 7, 80), rgb(15, 194, 173));
+    /* background-color: linear-gradient(to right, rgb(12, 7, 80), rgb(15, 194, 173)); */
     line-height: 2.5;
     font-size: 1.2rem;  
 }
@@ -442,7 +442,14 @@ header .ngsoft{
     }
 }
 .btn{
-    background-color: #eee;
+    background-color:goldenrod;
     color: black;
     border-radius: 10px;
+    color: #fff;
 }
+.blck{
+    font-weight: 500;
+    opacity: 0.4;
+    color: black;
+}
+

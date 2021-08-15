@@ -27,7 +27,7 @@ function App() {
     <div>
       <Router basename="/">
        {/* Add Menu Component */}
-        <Navbarmenu />
+        <Navbarmenu /><br />
         <Slider />
         <Switch>
           <Route exact path='/' component={Home} />  

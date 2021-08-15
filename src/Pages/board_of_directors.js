@@ -100,10 +100,10 @@ const data = [
 const BoardMembers = () => {
 	return (
     <section>
-      <div claasName="board__header">
-        <div className="board__members">
+      <div claasName="board__header top">
+        <div className="board__members top">
         <h1 className="members">Board Members</h1>
-        <span className="board__team">Our Team of Talent Individuals</span>
+        <span className="board__team f5">Our management board</span>
         </div>
         <div className="grid">
           {data.map((item) => (

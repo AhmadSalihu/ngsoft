@@ -13,20 +13,22 @@ body{
 	margin-top: 40px;							
 }
 .wrapper{
-	max-width: 1400px;
 	width: 100%;
+	max-width: 1400px;
 	min-height: 250px;
 	top: 75%;
 	left: 55%;
 	right: 30%;
-	position: absolute;
+	position: fixed;
 	transform: translate(-50%, -50%);
 	margin: auto;
 	background: var(--clr-white);
 	margin-bottom: auto;
 	padding: 10px;
 	box-shadow: 5px 20px rgba(255, 244, 244, 0.4);
-	margin-bottom: 30px;
+	margin-top: 30px;
+	padding-top: 100px;
+	z-index: 100;
 }
 .app{
 	width: 100%;

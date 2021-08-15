@@ -8,7 +8,7 @@ import Passion from '../assets/passion.jpg'
 const Management = () => {
 	return (
 		<>
-		<section className="mw8 center">
+		<section className="mw8 top center">
 		<h2 className="athelas ph3 ph0-l">News</h2>
 	<article className="pv4 b--black-10 ph3 ph0-l">
 			<div className="flex flex-column flex-row-ns">

@@ -450,7 +450,7 @@ const data = [
 const NgsoftStaff = () => {
 	return (
     <section>
-    <div className="flex pa3 pa4-ns black-70 f3 bgclr times">
+    <div className="flex pa3 pa4-ns black-70 f3 bgclr top times">
       <header className="b--black-70 pv4">
         <h3 className="f2 fw7 tracked lh-title mt0 mb3 avenir ng">NG<span className="soft">Soft </span>Staff</h3>
       </header>

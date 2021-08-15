@@ -5,9 +5,8 @@ import './outreach.css'
 const OutReach = () => {
 	return (
 		<>
-			<ul className="list pl0 mt0 measure center">  
-			<br />
-        <br />
+			<ul className="list pl0 mt0 measure top center">  
+        <h1 className="htag tc">Our OutReach</h1>
   <li
     className="flex items-center lh-copy pa3 ph0-l b--black-10">
         <div className="pl3 flex-auto">
