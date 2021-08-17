@@ -18,6 +18,81 @@ let info = [
 	}
 ];
 
+const cardData = [
+	{
+		id: 1,
+		name: "Smart Health",
+		title: "MediCard",
+		subTitle: "Health Care management System",
+		text: "Card",
+		src: "/ngsoftImages/MediCard01.png"
+	},
+	{
+		id: 2,
+		name: "Smart Farm",
+		title: "AgriCard",
+		subTitle: "A Digitalized farm managemeng system",
+		text: "Card",
+		src: '/ngsoftImages/AGRICARD2.png'
+	},
+	{
+		id: 3,
+		name: "Smart Banking",
+		title: "MFBanking",
+		subTitle: "A Digitalized microfinance  system",
+		text: "Card",
+		src: '/ngsoftImages/Mfbank.png'
+	},
+	{
+		id: 4,
+		name: "Smart Travel",
+		title: "SafeJoni Card",
+		subTitle: "Travel made easy with smart travel card",
+		text: "Card",
+		src: 'ngsoftImages/SafeJ.png'
+	},
+	{
+		id: 5,
+		name: "Smart Motoring",
+		title: "EVMS",
+		subTitle: "Electronic Vehicle Management Systems",
+		text: "Card",
+		src: '/ngsoftImages/vreg.png'
+	},
+	{
+		id: 6,
+		name: "Smart Gender",
+		title: "PinkCard",
+		subTitle: "Digital Gender Promotions",
+		text: "Card",
+		src: '/ngsoftImages/PinkCard.png'
+	},
+	{
+		id: 7,
+		name: "Smart Corps",
+		title: "CommandCard",
+		subTitle: "Digital Commercial Services",
+		text: "Card",
+		src: '/ngsoftImages/CommandCard.png'
+	},
+	{
+		id: 8,
+		name: "ServiCard",
+		title: "LG Services",
+		subTitle: "Digital LG Staff Management Sysytem",
+		text: "Card",
+		src: '/ngsoftImages/ServiCard3.png'
+	},
+	{
+		id: 9,
+		name: "Smart School",
+		title: "Campos Card",
+		subTitle: "Digital Studies System",
+		text: "Card",
+		src: '/ngsoftImages/conflunce.png'
+	},
+]
+
 const Home = () => {
 	const [showMore, setShowMore] = useState(false);
 	return (
@@ -57,6 +132,24 @@ const Home = () => {
 								</div>
 								</div>
 							))}
+								<br  />
+						<h1 className="htag top tc">OUR PRODUCTS</h1>
+						<div className="shadow-5">
+							<ul>
+								<div className="containers center row">
+								{
+									cardData.map((card) => (
+										<li key={card.id}>
+												<div className="flex row gap">
+												<img src={card.src} className="w-100 grow" alt={card.name} />
+											</div>
+										</li>
+									))
+								}
+								</div>
+						</ul>
+						</div>
+									<br />
 						<section className="mw7 bottom-top center">
 							<h1 className="row center htag">WHAT WE OFFER</h1>
 							<div data-aos="fade-left">

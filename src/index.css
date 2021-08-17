@@ -120,6 +120,28 @@ align-items: center;
   z-index: -1;
 }
 .bgc{
-  background-color: #cccaca;
+  background-color: #eedfee;
   opacity: 0.8;
+}
+.img-style{
+  display: flex;
+  width: 250px;
+  height: 300;
+  background-color: cadetblue;
+}
+.p-text{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.containers{
+  display: grid;
+  width: 40vw;
+  height: 60vh;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 0.2fr 0.2fr 0.2fr;
+  grid-area: "gap";
+  grid-gap: 1rem
 }
