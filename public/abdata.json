@@ -1,33 +1,27 @@
 [
     {
-        "src": "ngsoftImages/Mfbank.png",
-        "title": "Microfinance Bank",
-        "description": "Digitilized Land Admin System",
-        "link": ""
-    },
-    {
         "src": "ngsoftImages/Hm.jpeg",
         "title": "Home Manager",
         "description": "Digitilized Home Management System",
-        "moreInfo": "Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System"
+        "moreInfo": "Digitalized Home Management System. A Smart way of managing your home activities and repairs from the comfort of your couch..."
     },
     {
         "src": "ngsoftImages/mxlnd.jpeg",
         "title": "MaxLand",
         "description": "Digitilized Land and Property Registration System",
-        "moreInfo": "Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System"
+        "moreInfo": ""
     },
     {
         "src": "ngsoftImages/rncsft.jpeg",
         "title": "RencoSoft",
         "description": "Digitalized Home Rrent System",
-        "moreInfo": "Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System"
+        "moreInfo": "Digitalized housing rent systemRentcosoft provides an easy access to housing and estate within Kaduna metropolis"
     },
     {
         "src": "ngsoftImages/vreg.png",
         "title": "KadVreg",
         "description": "Digitilized Smart Vehicle Registration System",
-        "moreInfo": "Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System Digitilized Home Management System"
+        "moreInfo": "Digitalized Vehicle Registration System from the comfort of your home."
     }
       
 ]

@@ -106,7 +106,7 @@ const Home = () => {
 							<h1 className="row center text top htag">WHO WE ARE</h1>
 							<div className="row center text">
 								<p>
-									We are a digital transformation software development company that provides optimum services delivery, cutting edge engineering software solutions, helping fortune  companies and enterprise clients untangle complex issues that always emerge during their digital evolution journey. Since 2018 we have been a visionary and a reliable software engineering partner for world-className brands.
+								We are a digital transformation software development company that provides optimum services delivery, cutting edge engineering software solutions, helping fortune  companies and enterprise clients untangle complex issues that always emerge during their digital evolution journey. Since 2018 we have been a visionary and a reliable software engineering partner for world-className brands.
 						</p>
 							</div>
 						</div>
@@ -124,7 +124,7 @@ const Home = () => {
 							data-aos-easing="linear"
 							data-aos-duration="1500">
 									<div className="dt dt--fixed">
-								<div className="dtc tc bgc pv4 text row blck grow shadow-5">
+								<div className="dtc tc bg-near-white pv4 text row blck grow shadow-5">
 									<h2 className="col1 f3">{message.title }</h2><br />
 										<p className="f4">{showMore ? message.text : `${message.text.substring(0, 150)}...`}
 											<button className="btn-style" onClick={() => setShowMore(!showMore)}>{showMore ? " lessinfo" : " Moreinfo"}</button> </p>
@@ -134,6 +134,7 @@ const Home = () => {
 							))}
 								<br  />
 						<h1 className="htag top tc">OUR PRODUCTS</h1>
+						<div data-aos="zoom-in-left">
 						<div className="shadow-5">
 							<ul>
 								<div className="containers center row">
@@ -147,8 +148,9 @@ const Home = () => {
 									))
 								}
 								</div>
-						</ul>
+							</ul>
 						</div>
+					</div>
 									<br />
 						<section className="mw7 bottom-top center">
 							<h1 className="row center htag">WHAT WE OFFER</h1>
@@ -202,6 +204,24 @@ const Home = () => {
 									</div>
 								</article>
 							</div>
+							<div data-aos="fade-left">
+								<article className="pv4 bb b--black-10 ph3 ph0-l">
+									<div className="flex flex-column flex-row-ns">
+										<div className="w-100 w-60-ns pr3-ns order-2 order-1-ns">
+											<h1 className="f3 athelas mt0 lh-title c1">Mx
+										<span className="cl1">Land	</span></h1>
+											<h3 className="f4 athela lh-title cl2 i">Kaduna State Online Vehicle Registration</h3>
+											<p className="f5 f4-l lh-copy athelas">
+												Digitalized Vehicle Registration System <br />
+						 						from the comfort of your home.
+										</p>
+										</div>
+										<div className="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
+											<img src="/ngsoftImages/mxlnd.jpeg" className="db" alt="" />
+										</div>
+									</div>
+								</article>
+							</div>
 						</section>
 					</div>
 				</article>
@@ -209,4 +229,6 @@ const Home = () => {
 		</>
 	)
 };
+
+
 export default Home;

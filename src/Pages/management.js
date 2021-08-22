@@ -21,7 +21,7 @@ const Management = () => {
 					Ahmad Tafida Jalingo is the founder and Ceo of NGSoft Company, He is from Jalingo Taraba State and he currently lives in Kaduna State. He is so, passionate towards software technologies and has improve the lives of many citizens in Kaduna State Nigeria. By his unique ideas of software and how software gtechnology can be used to help ease many hardship that people are facing in this our time.
 					</p><br />
 				</div>
-				<div className="pl3-ns order-1 order-2-ns mb4 mb0-ns w-30-ns">
+					<div className="pl3-ns mb4 mb0-ns w-80 w-40-ns">
 					<img src={Atj} className="db sixing" alt="" />
 				</div>
 			</div>
@@ -37,7 +37,7 @@ const Management = () => {
 					Ahmad Tafida Jalingo is the founder and Ceo of NGSoft Company, He is from Jalingo Taraba State and he currently lives in Kaduna State. He is so, passionate towards software technologies and has improve the lives of many citizens in Kaduna State Nigeria. By his unique ideas of software and how software gtechnology can be used to help ease many hardship that people are facing in this our time.
 					</p><br />
 				</div>
-				<div className="pl3-ns order-1 order-2-ns mb4 mb0-ns w-80 w-40-ns">
+				<div className="pl3-ns mb4 mb0-ns w-80 w-40-ns">
 					<img src={Atj} className="db sixing" alt="" />
 				</div>
 			</div>
@@ -53,7 +53,7 @@ const Management = () => {
 					Ahmad Tafida Jalingo is the founder and Ceo of NGSoft Company, He is from Jalingo Taraba State and he currently lives in Kaduna State. He is so, passionate towards software technologies and has improve the lives of many citizens in Kaduna State Nigeria. By his unique ideas of software and how software gtechnology can be used to help ease many hardship that people are facing in this our time.
 					</p><br />
 				</div>
-				<div className="pl3-ns order-1 order-2-ns mb4 mb0-ns w-80 w-40-ns">
+				<div className="pl3-ns mb4 mb0-ns w-80 w-40-ns">
 					<img src={Atj} className="db sixing" alt="" />
 				</div>
 			</div>

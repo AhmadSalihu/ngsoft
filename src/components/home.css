@@ -84,7 +84,9 @@ header .ngsoft{
     width: 70%;
     height: 80%;
     box-shadow: 15px solid rgba(0, 190, 248, 0.5);
-    border-radius: 15px;   
+    border-radius: 15px 50px 30px; 
+    /* border-style: groove;
+    border-width: 15px; */
 }
 .ceo-title{
  
@@ -453,3 +455,25 @@ header .ngsoft{
     color: black;
 }
 
+.imagestyle{
+    width: 100;
+    border-color: 40px solid rgb(86, 86, 235);
+}
+.head-style{
+    width: 100%;
+    height: auto;
+}
+.text-head{
+    width: 60%;
+}
+.image-head{
+    width: 40%;
+    padding: 20%;
+    margin: 40%;
+}
+@media screen and (min-width: 800px) {
+  .image-head{
+    width: 90%;
+  }      
+
+}
