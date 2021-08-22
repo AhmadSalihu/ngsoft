@@ -26,7 +26,7 @@ const About = () => {
     <div className="pa4">
     <blockquote className="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
     <p className="f6 f4-m f3-l lh-copy measure bgc mt0">
-     NGSoft is set for design and development products and services targeted at the digitization of processes, in the commercial, public and social subsectors. NGSoft has continuously remained a benchmark for excellence in vehicular and Transportations registartion, plate no. renewals, Governance and finance, home and property as well various social services in Nigeria. We have since set scene for expansion to English Speaking West and East African countries in the immediate near future.
+   	NGSoft Is Set for Design and Development Products and Services Targeted At The Digitization Of Processes, In The Commercial, Public And Social Subsectors. NGSoft Has Continuously Remained a Benchmark for Excellence InVehicular And Transportations, Governance And Finance, Home And Property As Well Various Social Services In Nigeria. We Have Since Set Scene For Expansion To English Speaking West And East African Countries In The Immediate Near Future.
     </p>
     <cite className="f6 ttu tracked fs-normal">―NGSoft</cite>
   </blockquote>

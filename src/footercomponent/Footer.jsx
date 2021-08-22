@@ -13,7 +13,7 @@ import './footer.styles.css';
 
 const info = 
   {
-    about: "NGSoft is set for design and development Products and Services targeted at the Digitization of Processes, in the Commercial, Public and Social Subsectors. NGSoft has continuously remained a benchmark for excellence in Vehicular and Transportations, Governance and Finance, Home and Property as well various Social Services in Nigeria. We have Since set scene for expansion to English Speaking West and East African countries in the immediate near future."
+    about: "NGSoft Is Set for Design and Development Products and Services Targeted At The Digitization Of Processes, In The Commercial, Public And Social Subsectors. NGSoft Has Continuously Remained a Benchmark for Excellence InVehicular And Transportations, Governance And Finance, Home And Property As Well Various Social Services In Nigeria. We Have Since Set Scene For Expansion To English Speaking West And East African Countries In The Immediate Near Future."
   }
 
 

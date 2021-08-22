@@ -1,6 +1,6 @@
 import React from 'react';
 import './structure.css';
-import passion from '../assets/passion.jpg'
+// import passion from '../assets/passion.jpg'
 import boi from '../assets/boi.jpg'
 import boi1 from '../assets/boi1.jpg'
 import support from '../assets/support.jpg'
@@ -15,7 +15,7 @@ const Structure = () => {
         <div data-aos="fade-up"
           data-aos-anchor-placement="top-bottom">
         <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir ngsoft">Our Structure</h3>
-          <h4 className="f2 fw5  w-60-ns i lh-title mt0 white">Earlier on in 2020, <strong>NGSoft</strong> Restructured itself's into various software development units in order to deliver improved products and services to its customers. The various sectors are listed below, and are still inprogress.</h4>
+          <h4 className="f2 fw5  w-60-ns i lh-title white">Earlier on in 2020, <strong>NGSoft</strong> Restructured itself's into various software development units in order to deliver improved products and services to its customers. The various sectors are listed below, and are still inprogress.</h4>
           
          </div>        
         </header>    
@@ -24,7 +24,9 @@ const Structure = () => {
            <h1 className="tc white">Software Development</h1> 
            <div data-aos="fade-right">     
            <p className="f4 lh-copy white">
-             NGSoft Develops Software Products for Various Services and Sectors. Such As: Home Manager, Maxiland and Smart Housing for the Home Property Sub Sector, Smart Motoring Consisting of NVreg.ng for Vehicles Registrations, E-TMS.ng for Electronic Traffic Management and NVMS.ng for General Vehicles Management Services as well as Safejoni.ng for Commuter Administration. NGSoft Equally are the Innovators of mfbankng Smart Banking, Avatech.ng Smart- Market Delivery System and Smart- Pay a QR Payment System and Insuretech.ng a Smart- Risk Management. For The Public Sector We Developed and Deliver Smart- Govt, Smart-Revenues, Smart- Health and Smart Agric and Many More.  
+       We are into Digital Microcredit Mgt.  System, Land Admin System, Military & Police Digital Services, Agricultural Service Delivery System,
+									Civil Serv. (Feds, State & Local). Health Care Mgt. SystemHome & Property Sales/Rental SystemDigital Promotions SystemVirtual Market ApplicationElectronic Vehicles Mgt. System Online Payment SystemRetirement Live SystemGeneric Revenue Aggregation Service System
+									Insuretech Insurance Automated Delivery SystemDigital Scholarship and Studies System
           </p>
           </div>
           </div>

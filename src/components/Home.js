@@ -106,7 +106,8 @@ const Home = () => {
 							<h1 className="row center text top htag">WHO WE ARE</h1>
 							<div className="row center text">
 								<p>
-								We are a digital transformation software development company that provides optimum services delivery, cutting edge engineering software solutions, helping fortune  companies and enterprise clients untangle complex issues that always emerge during their digital evolution journey. Since 2018 we have been a visionary and a reliable software engineering partner for world-className brands.
+									NGSoft is an Emerging Software Development Company That Provides Optimum Services Delivery, Cutting Edge Software Solutions, Helping Public Sector Operators, Private Companies and Enterprises with Systems, Packages and Solutions. That Always Emerge During Their Digital Evolution Journey. We are into Optimal Operations Virtualizations, Digitalizations and Automations of Processes. <br />
+
 						</p>
 							</div>
 						</div>
@@ -116,15 +117,32 @@ const Home = () => {
 								</div>
 							</div>
 						</article>
+							<div className="ph4 ph5-m ph6-l">
+						<div data-aos="fade-down"
+							data-aos-easing="linear"
+							data-aos-duration="1500">
+							<h1 className="row center text top htag">WHAT WE DO</h1>
+							V<div data-aos="zoom-in-up">	
+							<div className="row center text">
+								<p>
+										We are into Digital Microcredit Mgt.  System, Land Admin System, Military & Police Digital Services, Agricultural Service Delivery System,
+										Civil Serv. (Feds, State & Local). Health Care Mgt. SystemHome & Property Sales/Rental SystemDigital Promotions SystemVirtual Market ApplicationElectronic Vehicles Mgt. System Online Payment SystemRetirement Live SystemGeneric Revenue Aggregation Service System
+										Insuretech Insurance Automated Delivery SystemDigital Scholarship and Studies System
+									 <br />
+						</p>
+							</div>
+							</div>
+						</div>
+						</div> <br />
 						<div data-aos="fade-down-right">
-							<h1 className="htag tc">OUR SERVICES</h1>
+							<h1 className="htag tc top">OUR SERVICES</h1>
 						</div>
 						{info.map((message, index) => (
 						<div  key={index}  data-aos="fade-down"
 							data-aos-easing="linear"
 							data-aos-duration="1500">
 									<div className="dt dt--fixed">
-								<div className="dtc tc bg-near-white pv4 text row blck grow shadow-5">
+								<div className="dtc tc pv4 text row blck grow shadow-5">
 									<h2 className="col1 f3">{message.title }</h2><br />
 										<p className="f4">{showMore ? message.text : `${message.text.substring(0, 150)}...`}
 											<button className="btn-style" onClick={() => setShowMore(!showMore)}>{showMore ? " lessinfo" : " Moreinfo"}</button> </p>
