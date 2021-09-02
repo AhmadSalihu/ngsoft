@@ -122,7 +122,7 @@ const Home = () => {
 							data-aos-easing="linear"
 							data-aos-duration="1500">
 							<h1 className="row center text top htag">WHAT WE DO</h1>
-							V<div data-aos="zoom-in-up">	
+							<div data-aos="zoom-in-up">	
 							<div className="row center text">
 								<p>
 										We are into Digital Microcredit Mgt.  System, Land Admin System, Military & Police Digital Services, Agricultural Service Delivery System,
@@ -226,8 +226,8 @@ const Home = () => {
 								<article className="pv4 bb b--black-10 ph3 ph0-l">
 									<div className="flex flex-column flex-row-ns">
 										<div className="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-											<h1 className="f3 athelas mt0 lh-title c1">Mx
-										<span className="cl1">Land	</span></h1>
+											<h1 className="f3 athelas mt0 lh-title c1">MX
+										<span className="cl1">LAND	</span></h1>
 											<h3 className="f4 athela lh-title cl2 i">Kaduna State Online Vehicle Registration</h3>
 											<p className="f5 f4-l lh-copy athelas">
 												Digitalized Vehicle Registration System <br />
