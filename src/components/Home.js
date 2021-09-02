@@ -122,7 +122,7 @@ const Home = () => {
 							data-aos-easing="linear"
 							data-aos-duration="1500">
 							<h1 className="row center text top htag">WHAT WE DO</h1>
-							V<div data-aos="zoom-in-up">	
+							<div data-aos="zoom-in-up">	
 							<div className="row center text">
 								<p>
 										We are into Digital Microcredit Mgt.  System, Land Admin System, Military & Police Digital Services, Agricultural Service Delivery System,
