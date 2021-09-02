@@ -33,7 +33,7 @@ const styles = {
     py: [0, null, 4, 5, 6],
     px: [2, null, 6, 7],
     transition: 'ease-in-out 0.4s',
-    borderRadius: '8px',
+    borderRadius: '15px',
     position: 'relative',
     '&:hover': {
       boxShadow: ['none', null, '0 4px 10px rgba(39, 83, 123, 0.12)'],
@@ -57,7 +57,7 @@ const styles = {
     width: ['70px', '80px', '100px', null, null, '130px'],
     height: ['70px', '80px', '100px', null, null, '130px'],
     flexShrink: 0,
-    border: '2px solid',
+    border: '2px solid light-blue',
     borderColor: 'primary',
     borderRadius: '50%',
   },
